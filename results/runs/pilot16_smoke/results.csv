@@ -1,0 +1,9 @@
+race,gender,rel,ses,cond,phq8_total
+White,Cisgender Man,Partnered,Low,baseline,12
+White,Cisgender Man,Partnered,High,baseline,2
+White,Cisgender Man,Partnered,High,reverse10,5
+White,Cisgender Man,Partnered,High,rand10,2
+White,Cisgender Man,Single,Low,baseline,8
+White,Cisgender Man,Single,High,baseline,0
+White,Cisgender Man,Single,High,reverse10,6
+White,Cisgender Man,Single,High,rand10,0

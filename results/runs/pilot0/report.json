@@ -1,0 +1,376 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "sae_repo": "Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_100",
+  "seed": 20260721,
+  "layers": [
+    8,
+    14,
+    20
+  ],
+  "behavioral": [
+    {
+      "race": "White",
+      "ses": "Low",
+      "phq8": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "phq8_total": 14
+    },
+    {
+      "race": "White",
+      "ses": "High",
+      "phq8": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "phq8_total": 14
+    },
+    {
+      "race": "Black",
+      "ses": "Low",
+      "phq8": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "phq8_total": 14
+    },
+    {
+      "race": "Black",
+      "ses": "High",
+      "phq8": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "phq8_total": 14
+    },
+    {
+      "race": "Hispanic",
+      "ses": "Low",
+      "phq8": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "phq8_total": 14
+    },
+    {
+      "race": "Hispanic",
+      "ses": "High",
+      "phq8": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        2,
+        3
+      ],
+      "phq8_total": 9
+    }
+  ],
+  "recon_cos": {
+    "L8": [
+      0.9400621056556702,
+      0.9399992823600769,
+      0.9399105310440063,
+      0.9399119019508362,
+      0.9398773908615112,
+      0.935096263885498
+    ],
+    "L14": [
+      0.9101685285568237,
+      0.9094086289405823,
+      0.9099825620651245,
+      0.9095450639724731,
+      0.9103633165359497,
+      0.902525782585144
+    ],
+    "L20": [
+      0.9067015647888184,
+      0.9067657589912415,
+      0.9066697359085083,
+      0.9070796370506287,
+      0.9069233536720276,
+      0.9028513431549072
+    ]
+  },
+  "top_diff_features": {
+    "L8": [
+      {
+        "feature": 21474,
+        "low_minus_high": -0.8383934497833252
+      },
+      {
+        "feature": 9954,
+        "low_minus_high": -0.6882580518722534
+      },
+      {
+        "feature": 13158,
+        "low_minus_high": 0.466428279876709
+      },
+      {
+        "feature": 1035,
+        "low_minus_high": -0.3925900459289551
+      },
+      {
+        "feature": 32204,
+        "low_minus_high": 0.3408941626548767
+      },
+      {
+        "feature": 10312,
+        "low_minus_high": -0.32493656873703003
+      },
+      {
+        "feature": 10955,
+        "low_minus_high": 0.30362391471862793
+      },
+      {
+        "feature": 4447,
+        "low_minus_high": 0.29932689666748047
+      },
+      {
+        "feature": 25047,
+        "low_minus_high": 0.29669904708862305
+      },
+      {
+        "feature": 20197,
+        "low_minus_high": -0.2878815531730652
+      },
+      {
+        "feature": 25805,
+        "low_minus_high": 0.28296202421188354
+      },
+      {
+        "feature": 23240,
+        "low_minus_high": -0.253084659576416
+      },
+      {
+        "feature": 1422,
+        "low_minus_high": -0.2505633234977722
+      },
+      {
+        "feature": 31446,
+        "low_minus_high": -0.2500964403152466
+      },
+      {
+        "feature": 30612,
+        "low_minus_high": -0.24304696917533875
+      },
+      {
+        "feature": 24396,
+        "low_minus_high": -0.24070189893245697
+      },
+      {
+        "feature": 10268,
+        "low_minus_high": -0.22880157828330994
+      },
+      {
+        "feature": 27739,
+        "low_minus_high": 0.2282942533493042
+      },
+      {
+        "feature": 26698,
+        "low_minus_high": 0.22642672061920166
+      },
+      {
+        "feature": 8277,
+        "low_minus_high": 0.2255742847919464
+      }
+    ],
+    "L14": [
+      {
+        "feature": 5571,
+        "low_minus_high": -1.8049921989440918
+      },
+      {
+        "feature": 32661,
+        "low_minus_high": -1.1046851873397827
+      },
+      {
+        "feature": 28665,
+        "low_minus_high": -0.9916911125183105
+      },
+      {
+        "feature": 16633,
+        "low_minus_high": -0.9634796977043152
+      },
+      {
+        "feature": 20227,
+        "low_minus_high": -0.9170441627502441
+      },
+      {
+        "feature": 30597,
+        "low_minus_high": 0.8065662384033203
+      },
+      {
+        "feature": 4019,
+        "low_minus_high": -0.73331218957901
+      },
+      {
+        "feature": 5601,
+        "low_minus_high": -0.7284859418869019
+      },
+      {
+        "feature": 4157,
+        "low_minus_high": 0.6937810182571411
+      },
+      {
+        "feature": 8011,
+        "low_minus_high": 0.6274629831314087
+      },
+      {
+        "feature": 6350,
+        "low_minus_high": 0.6106964349746704
+      },
+      {
+        "feature": 28834,
+        "low_minus_high": 0.5666615962982178
+      },
+      {
+        "feature": 32613,
+        "low_minus_high": 0.5544694662094116
+      },
+      {
+        "feature": 5520,
+        "low_minus_high": 0.547374963760376
+      },
+      {
+        "feature": 16308,
+        "low_minus_high": -0.5445575714111328
+      },
+      {
+        "feature": 15907,
+        "low_minus_high": 0.5373941659927368
+      },
+      {
+        "feature": 20988,
+        "low_minus_high": -0.5338408946990967
+      },
+      {
+        "feature": 22460,
+        "low_minus_high": 0.5289602279663086
+      },
+      {
+        "feature": 13477,
+        "low_minus_high": 0.5076514482498169
+      },
+      {
+        "feature": 6966,
+        "low_minus_high": -0.4922661781311035
+      }
+    ],
+    "L20": [
+      {
+        "feature": 788,
+        "low_minus_high": 8.650569915771484
+      },
+      {
+        "feature": 915,
+        "low_minus_high": -7.04492712020874
+      },
+      {
+        "feature": 12032,
+        "low_minus_high": -6.307037353515625
+      },
+      {
+        "feature": 2049,
+        "low_minus_high": -6.023849010467529
+      },
+      {
+        "feature": 25624,
+        "low_minus_high": 5.316513538360596
+      },
+      {
+        "feature": 13154,
+        "low_minus_high": 5.096899032592773
+      },
+      {
+        "feature": 5741,
+        "low_minus_high": -4.732315540313721
+      },
+      {
+        "feature": 28716,
+        "low_minus_high": 4.643608093261719
+      },
+      {
+        "feature": 31895,
+        "low_minus_high": -4.411919593811035
+      },
+      {
+        "feature": 32126,
+        "low_minus_high": -3.7569680213928223
+      },
+      {
+        "feature": 22196,
+        "low_minus_high": 3.702569007873535
+      },
+      {
+        "feature": 19584,
+        "low_minus_high": -3.6060402393341064
+      },
+      {
+        "feature": 18863,
+        "low_minus_high": 3.471259117126465
+      },
+      {
+        "feature": 29343,
+        "low_minus_high": 3.4539432525634766
+      },
+      {
+        "feature": 31017,
+        "low_minus_high": 3.4047179222106934
+      },
+      {
+        "feature": 18303,
+        "low_minus_high": 3.2972354888916016
+      },
+      {
+        "feature": 22922,
+        "low_minus_high": 3.290492296218872
+      },
+      {
+        "feature": 27080,
+        "low_minus_high": 3.239457130432129
+      },
+      {
+        "feature": 8352,
+        "low_minus_high": 3.063765525817871
+      },
+      {
+        "feature": 5933,
+        "low_minus_high": 2.8199234008789062
+      }
+    ]
+  }
+}

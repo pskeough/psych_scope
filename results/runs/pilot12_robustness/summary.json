@@ -1,0 +1,20 @@
+{
+  "held_out_target_overlap": {
+    "27": 9,
+    "33": 10
+  },
+  "R1_narr": {
+    "baseline": 0.0,
+    "reverse10": 1.8,
+    "rand10": 0.0
+  },
+  "R2_sampled": {
+    "baseline": 2.8666666666666667,
+    "reverse10": 7.0
+  },
+  "R3_heldout": {
+    "baseline": 2.7,
+    "reverse10_heldout": 7.3
+  },
+  "parse_rate": 1.0
+}
