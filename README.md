@@ -55,3 +55,7 @@ Each script carries its pre-registration in the module docstring, hardcodes its 
 ## Limitations
 
 The socioeconomic cue bundles income and insurance and is not a validated multidimensional construct. We test one checkpoint per family, so mechanistic claims are model-level, not family-general. The causal tier is greedy single-draw with several identification controls left for future work, and inference is quantized, so effect magnitude, unlike direction, depends on quantization. The demonstrated harm is a counterfactual-invariance violation in simulated self-report, not a measured clinical outcome, and every deployment implication is conditional.
+
+## License
+
+Code: MIT ([LICENSE](LICENSE)) · Paper text, figures and derived data: CC BY-NC-ND 4.0 ([LICENSE-DATA](LICENSE-DATA))
