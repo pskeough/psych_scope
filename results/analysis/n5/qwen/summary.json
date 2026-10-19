@@ -1,0 +1,1640 @@
+{
+  "partial": false,
+  "experiment": "N5 null cue",
+  "status": "EXPLORATORY",
+  "model": "Qwen/Qwen3-8B@b968826d9c46dd6066d109eabc6255188de91218",
+  "null_attr": "colour",
+  "values": {
+    "A": "Blue",
+    "B": "Red",
+    "C": "Green"
+  },
+  "segment_template": "Favourite Colour: <value> (stated by the patient when asked at intake).",
+  "n_records": 640,
+  "references": {
+    "gold": {
+      "path": "C:\\Research\\PsychBench\\UpdatedRun\\groundtruth\\phq8_groundtruth_nhanes_2005_2018.csv",
+      "sha256": "2c81ccd18871f846d541fb2660c21bcde925b19d037c60eeaac1469e1af6f553",
+      "Low": 4.247,
+      "Middle": 3.1183,
+      "High": 2.2272,
+      "gap_low_minus_high": 2.0198,
+      "rounded": {
+        "Low": 4.25,
+        "Middle": 3.12,
+        "High": 2.23,
+        "gap": 2.02
+      }
+    },
+    "ses_diffmean": {
+      "source": "experiments\\e1\\summary.json",
+      "base_gap_low_minus_high": 6.9,
+      "abs_change": {
+        "dirablate_all_vs_base_low": -3.15,
+        "dirablate_band_vs_base_low": -1.65,
+        "randablate_all_vs_base_low": -0.75,
+        "diradd_L18_vs_base_high": 3.2,
+        "randadd_L18_vs_base_high": -2.4
+      },
+      "gap_removed": {
+        "dirablate_all": {
+          "estimate": 0.45652173913043476,
+          "ci95": [
+            0.36496350364963503,
+            0.5488721804511277
+          ]
+        },
+        "dirablate_band": {
+          "estimate": 0.23913043478260868,
+          "ci95": [
+            0.14399848484848488,
+            0.3229861005908195
+          ]
+        },
+        "randablate_all": {
+          "estimate": 0.10869565217391304,
+          "ci95": [
+            0.03571428571428571,
+            0.18705035971223022
+          ]
+        }
+      },
+      "alpha_add_layer": 12.329371452331543
+    },
+    "ses_patch": {
+      "source": "analysis/t6_out/t6_layer_placement.json",
+      "by_layer": {
+        "15": {
+          "abs_change": -0.3000000000000007,
+          "pmf": 0.03488372093023256,
+          "gap": 8.6,
+          "run": "pilot10c_onset"
+        },
+        "16": {
+          "abs_change": -3.3499999999999996,
+          "pmf": 0.38953488372093026,
+          "gap": 8.6,
+          "run": "pilot10c_onset"
+        },
+        "17": {
+          "abs_change": -3.6500000000000004,
+          "pmf": 0.4244186046511628,
+          "gap": 8.6,
+          "run": "pilot10c_onset"
+        },
+        "18": {
+          "abs_change": -6.8,
+          "pmf": 0.7906976744186046,
+          "gap": 8.6,
+          "run": "pilot10c_onset"
+        },
+        "19": {
+          "abs_change": -5.5,
+          "pmf": 0.6395348837209303,
+          "gap": 8.6,
+          "run": "pilot10b_bracket"
+        },
+        "20": {
+          "abs_change": -4.3,
+          "pmf": 0.5,
+          "gap": 8.6,
+          "run": "pilot10b_bracket"
+        },
+        "21": {
+          "abs_change": -3.4000000000000004,
+          "pmf": 0.3953488372093023,
+          "gap": 8.6,
+          "run": "pilot10_transport"
+        },
+        "22": {
+          "abs_change": -1.9499999999999993,
+          "pmf": 0.22674418604651164,
+          "gap": 8.6,
+          "run": "pilot10b_bracket"
+        },
+        "23": {
+          "abs_change": -0.09999999999999964,
+          "pmf": 0.011627906976744188,
+          "gap": 8.6,
+          "run": "pilot10b_bracket"
+        },
+        "24": {
+          "abs_change": 0.0,
+          "pmf": 0.0,
+          "gap": 8.6,
+          "run": "pilot10_transport"
+        },
+        "27": {
+          "abs_change": 0.0,
+          "pmf": 0.0,
+          "gap": 8.6,
+          "run": "pilot10_transport"
+        },
+        "30": {
+          "abs_change": 0.0,
+          "pmf": 0.0,
+          "gap": 8.6,
+          "run": "pilot10_transport"
+        },
+        "33": {
+          "abs_change": -0.05000000000000071,
+          "pmf": 0.005813953488372094,
+          "gap": 8.6,
+          "run": "pilot10_transport"
+        }
+      },
+      "regime": "pilot10/10c: STANDARD example array, Low <- High; N5 uses the rotated array",
+      "missing_layers": [
+        12
+      ]
+    },
+    "sex_diffmean": {
+      "source": "experiments/e15/diffmean/summary.json",
+      "sex_gap": 1.3,
+      "gap_removed": {
+        "dirablate_all": {
+          "estimate": 1.0384615384615385,
+          "ci95": [
+            0.5788304093567251,
+            2.1011111111111154
+          ]
+        },
+        "randablate_all": {
+          "estimate": -0.23076923076923075,
+          "ci95": [
+            -1.6,
+            0.28125
+          ]
+        }
+      }
+    }
+  },
+  "fp_threshold_points": {
+    "value": 0.6900000000000001,
+    "rule": "0.10 x the model's SES base gap (the PMF >= 0.10 band rule expressed in PHQ-8 points); 1.0 if the reference is missing"
+  },
+  "behaviour": {
+    "n_records": 60,
+    "n_profiles": 20,
+    "n_reused_hookfree": 0,
+    "arms": {
+      "null_A": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 6.8,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 11
+      },
+      "null_B": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 7.05,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 18,
+          "near2": 2
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 10
+      },
+      "null_C": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 6.95,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 11
+      }
+    },
+    "gaps": {
+      "A-B": {
+        "treat": "null_A",
+        "ref": "null_B",
+        "n_pairs": 20,
+        "mean_treat": 6.8,
+        "mean_ref": 7.05,
+        "mean_diff": -0.25,
+        "ci95": [
+          -0.7,
+          0.2
+        ],
+        "p_signflip": 0.4140625,
+        "n_nonzero": 8
+      },
+      "A-C": {
+        "treat": "null_A",
+        "ref": "null_C",
+        "n_pairs": 20,
+        "mean_treat": 6.8,
+        "mean_ref": 6.95,
+        "mean_diff": -0.15,
+        "ci95": [
+          -0.55,
+          0.15
+        ],
+        "p_signflip": 0.625,
+        "n_nonzero": 4
+      },
+      "B-C": {
+        "treat": "null_B",
+        "ref": "null_C",
+        "n_pairs": 20,
+        "mean_treat": 7.05,
+        "mean_ref": 6.95,
+        "mean_diff": 0.1,
+        "ci95": [
+          -0.35,
+          0.55
+        ],
+        "p_signflip": 0.828125,
+        "n_nonzero": 8
+      }
+    },
+    "max_abs_gap": 0.25
+  },
+  "patch": {
+    "n_records": 140,
+    "n_profiles": 20,
+    "n_reused_hookfree": 40,
+    "arms": {
+      "base_A": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 6.8,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 11
+      },
+      "base_B": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 7.05,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 18,
+          "near2": 2
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 10
+      },
+      "patch_L12": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 6.8,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 19,
+          "near2": 1
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 11
+      },
+      "patch_L16": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 7.25,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 19,
+          "near2": 1
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 12
+      },
+      "patch_L18": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 7.1,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 19,
+          "near2": 1
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 16
+      },
+      "patch_L20": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 7.1,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 19,
+          "near2": 1
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 13
+      },
+      "patch_ALL": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 7.1,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 11
+      }
+    },
+    "base_gap_A_minus_B": {
+      "treat": "base_A",
+      "ref": "base_B",
+      "n_pairs": 20,
+      "mean_treat": 6.8,
+      "mean_ref": 7.05,
+      "mean_diff": -0.25,
+      "ci95": [
+        -0.7,
+        0.2
+      ],
+      "p_signflip": 0.4140625,
+      "n_nonzero": 8
+    },
+    "abs_change_vs_base_A": {
+      "patch_L12": {
+        "treat": "patch_L12",
+        "ref": "base_A",
+        "n_pairs": 20,
+        "mean_treat": 6.8,
+        "mean_ref": 6.8,
+        "mean_diff": 0.0,
+        "ci95": [
+          -0.35,
+          0.4
+        ],
+        "p_signflip": 1.0,
+        "n_nonzero": 3,
+        "p_holm_4_layers": 1.0
+      },
+      "patch_L16": {
+        "treat": "patch_L16",
+        "ref": "base_A",
+        "n_pairs": 20,
+        "mean_treat": 7.25,
+        "mean_ref": 6.8,
+        "mean_diff": 0.45,
+        "ci95": [
+          -0.05,
+          1.05
+        ],
+        "p_signflip": 0.203125,
+        "n_nonzero": 8,
+        "p_holm_4_layers": 0.8125
+      },
+      "patch_L18": {
+        "treat": "patch_L18",
+        "ref": "base_A",
+        "n_pairs": 20,
+        "mean_treat": 7.1,
+        "mean_ref": 6.8,
+        "mean_diff": 0.3,
+        "ci95": [
+          -0.2,
+          0.85
+        ],
+        "p_signflip": 0.36328125,
+        "n_nonzero": 9,
+        "p_holm_4_layers": 0.984375
+      },
+      "patch_L20": {
+        "treat": "patch_L20",
+        "ref": "base_A",
+        "n_pairs": 20,
+        "mean_treat": 7.1,
+        "mean_ref": 6.8,
+        "mean_diff": 0.3,
+        "ci95": [
+          -0.15,
+          0.8
+        ],
+        "p_signflip": 0.328125,
+        "n_nonzero": 7,
+        "p_holm_4_layers": 0.984375
+      },
+      "patch_ALL": {
+        "treat": "patch_ALL",
+        "ref": "base_A",
+        "n_pairs": 20,
+        "mean_treat": 7.1,
+        "mean_ref": 6.8,
+        "mean_diff": 0.3,
+        "ci95": [
+          -0.05,
+          0.75
+        ],
+        "p_signflip": 0.265625,
+        "n_nonzero": 7
+      }
+    },
+    "fraction_defined": false,
+    "transferred_fraction": "undefined: base gap CI includes 0; read abs_change_vs_base_A",
+    "alignment": {
+      "n": 20,
+      "ok": 20,
+      "K_min": 255,
+      "K_max": 256
+    }
+  },
+  "diffmean": {
+    "n_records": 180,
+    "n_profiles": 20,
+    "n_reused_hookfree": 40,
+    "arms": {
+      "base_A": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 6.8,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 11
+      },
+      "base_B": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 7.05,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 18,
+          "near2": 2
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 10
+      },
+      "dirablate_all": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 6.8,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 10
+      },
+      "dirablate_band": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 6.85,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 10
+      },
+      "randablate_all": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 6.75,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 19,
+          "near2": 1
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 10
+      },
+      "diradd_L18": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 6.85,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 11
+      },
+      "randadd_L18": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 6.45,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 18,
+          "near2": 2
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 12
+      },
+      "diradd_L18_sesnorm": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 6.6,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 18,
+          "near2": 2
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 12
+      },
+      "randadd_L18_sesnorm": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 5.95,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 19,
+          "near2": 1
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 4
+      }
+    },
+    "base_gap_A_minus_B": {
+      "treat": "base_A",
+      "ref": "base_B",
+      "n_pairs": 20,
+      "mean_treat": 6.8,
+      "mean_ref": 7.05,
+      "mean_diff": -0.25,
+      "ci95": [
+        -0.7,
+        0.2
+      ],
+      "p_signflip": 0.4140625,
+      "n_nonzero": 8
+    },
+    "abs_change": {
+      "dirablate_all_vs_base_A": {
+        "treat": "dirablate_all",
+        "ref": "base_A",
+        "n_pairs": 20,
+        "mean_treat": 6.8,
+        "mean_ref": 6.8,
+        "mean_diff": 0.0,
+        "ci95": [
+          -0.4,
+          0.4
+        ],
+        "p_signflip": 1.0,
+        "n_nonzero": 6
+      },
+      "dirablate_band_vs_base_A": {
+        "treat": "dirablate_band",
+        "ref": "base_A",
+        "n_pairs": 20,
+        "mean_treat": 6.85,
+        "mean_ref": 6.8,
+        "mean_diff": 0.05,
+        "ci95": [
+          -0.15,
+          0.3
+        ],
+        "p_signflip": 1.0,
+        "n_nonzero": 2
+      },
+      "randablate_all_vs_base_A": {
+        "treat": "randablate_all",
+        "ref": "base_A",
+        "n_pairs": 20,
+        "mean_treat": 6.75,
+        "mean_ref": 6.8,
+        "mean_diff": -0.05,
+        "ci95": [
+          -0.5,
+          0.4
+        ],
+        "p_signflip": 1.0,
+        "n_nonzero": 9
+      },
+      "dirablate_all_vs_randablate_all": {
+        "treat": "dirablate_all",
+        "ref": "randablate_all",
+        "n_pairs": 20,
+        "mean_treat": 6.8,
+        "mean_ref": 6.75,
+        "mean_diff": 0.05,
+        "ci95": [
+          -0.5,
+          0.6
+        ],
+        "p_signflip": 1.0,
+        "n_nonzero": 10
+      },
+      "diradd_L18_vs_base_B": {
+        "treat": "diradd_L18",
+        "ref": "base_B",
+        "n_pairs": 20,
+        "mean_treat": 6.85,
+        "mean_ref": 7.05,
+        "mean_diff": -0.2,
+        "ci95": [
+          -0.6,
+          0.15
+        ],
+        "p_signflip": 0.46875,
+        "n_nonzero": 7
+      },
+      "randadd_L18_vs_base_B": {
+        "treat": "randadd_L18",
+        "ref": "base_B",
+        "n_pairs": 20,
+        "mean_treat": 6.45,
+        "mean_ref": 7.05,
+        "mean_diff": -0.6,
+        "ci95": [
+          -0.95,
+          -0.3
+        ],
+        "p_signflip": 0.00390625,
+        "n_nonzero": 9
+      },
+      "diradd_L18_vs_randadd_L18": {
+        "treat": "diradd_L18",
+        "ref": "randadd_L18",
+        "n_pairs": 20,
+        "mean_treat": 6.85,
+        "mean_ref": 6.45,
+        "mean_diff": 0.4,
+        "ci95": [
+          0.05,
+          0.8
+        ],
+        "p_signflip": 0.09765625,
+        "n_nonzero": 9
+      },
+      "diradd_L18_sesnorm_vs_base_B": {
+        "treat": "diradd_L18_sesnorm",
+        "ref": "base_B",
+        "n_pairs": 20,
+        "mean_treat": 6.6,
+        "mean_ref": 7.05,
+        "mean_diff": -0.45,
+        "ci95": [
+          -0.8,
+          -0.1
+        ],
+        "p_signflip": 0.046875,
+        "n_nonzero": 11
+      },
+      "randadd_L18_sesnorm_vs_base_B": {
+        "treat": "randadd_L18_sesnorm",
+        "ref": "base_B",
+        "n_pairs": 20,
+        "mean_treat": 5.95,
+        "mean_ref": 7.05,
+        "mean_diff": -1.1,
+        "ci95": [
+          -1.7,
+          -0.45
+        ],
+        "p_signflip": 0.0067138671875,
+        "n_nonzero": 14
+      },
+      "diradd_L18_sesnorm_vs_randadd_L18_sesnorm": {
+        "treat": "diradd_L18_sesnorm",
+        "ref": "randadd_L18_sesnorm",
+        "n_pairs": 20,
+        "mean_treat": 6.6,
+        "mean_ref": 5.95,
+        "mean_diff": 0.65,
+        "ci95": [
+          0.05,
+          1.3
+        ],
+        "p_signflip": 0.078125,
+        "n_nonzero": 12
+      }
+    },
+    "gap_removed": "undefined: base gap CI includes 0; read abs_change",
+    "directions": {
+      "cos_null_vs_ses_by_layer": [
+        -0.05848,
+        -0.04212,
+        -0.04261,
+        -0.02477,
+        -0.01848,
+        -0.00076,
+        -0.01799,
+        -0.01525,
+        0.01839,
+        0.02044,
+        0.02385,
+        0.03511,
+        0.03406,
+        0.03725,
+        0.04762,
+        0.03837,
+        0.04465,
+        0.04645,
+        0.0424,
+        0.04801,
+        0.05524,
+        0.04979,
+        0.04849,
+        0.04423,
+        0.02541,
+        0.03139,
+        0.03521,
+        0.02678,
+        0.01565,
+        0.01256,
+        0.00405,
+        0.00986,
+        -0.00142,
+        -0.00264,
+        -0.01212,
+        0.00779
+      ],
+      "abs_cos_null_vs_ses_max": 0.05848,
+      "cos_null_vs_ses_at_add_layer": 0.0424,
+      "chance_cos": 0.015625,
+      "alpha_null_by_layer": [
+        0.5938,
+        0.6399,
+        0.7914,
+        0.8691,
+        1.4988,
+        2.0428,
+        2.2251,
+        2.6198,
+        3.1714,
+        3.1221,
+        2.9593,
+        3.0118,
+        3.1897,
+        3.2367,
+        3.3484,
+        3.3246,
+        3.3652,
+        3.5004,
+        3.6145,
+        4.0064,
+        4.1909,
+        4.6449,
+        5.3597,
+        7.5847,
+        8.6764,
+        9.9016,
+        10.9799,
+        12.208,
+        14.0318,
+        15.3708,
+        16.3251,
+        17.4895,
+        18.709,
+        20.0171,
+        21.9417,
+        23.8685
+      ],
+      "alpha_ses_by_layer": [
+        0.9897,
+        1.1726,
+        1.3519,
+        1.964,
+        2.3325,
+        2.9702,
+        3.7618,
+        4.7851,
+        6.1517,
+        6.6141,
+        7.1768,
+        7.8746,
+        8.5837,
+        9.1651,
+        9.3024,
+        9.8992,
+        10.9792,
+        11.7958,
+        12.3294,
+        13.7064,
+        14.942,
+        16.3563,
+        18.6072,
+        21.9037,
+        25.178,
+        28.9008,
+        33.6768,
+        39.6409,
+        44.1186,
+        48.5066,
+        54.743,
+        62.3289,
+        69.118,
+        74.2276,
+        81.465,
+        90.3603
+      ],
+      "alpha_ratio_at_add_layer": 0.2931637465953827,
+      "add_layer": 18,
+      "ses_dirs_sha256": "9f68ce243733ac8e30fa8820fd9215e9155401ec03857e2da3b05e2f41f2eef5",
+      "n_fit_prompts": 120,
+      "n_fit_used": 120,
+      "fit_cue_misses": [],
+      "fit_variants": [
+        "clinical_v1",
+        "narrative_v0",
+        "narrative_v1"
+      ],
+      "fit_seconds": 48.3,
+      "L18_fit_pairs_A_above_B": "60/60",
+      "cos_null_vs_sex_by_layer": [
+        0.05149,
+        0.04606,
+        0.05022,
+        0.05787,
+        0.02384,
+        0.01918,
+        -0.01255,
+        -0.01679,
+        -0.01629,
+        -0.02541,
+        -0.0184,
+        -0.00236,
+        -0.02479,
+        -0.02635,
+        -0.03475,
+        -0.03963,
+        -0.04505,
+        -0.04058,
+        -0.05161,
+        -0.04886,
+        -0.03271,
+        -0.04269,
+        -0.04692,
+        -0.04725,
+        -0.04511,
+        -0.04826,
+        -0.04534,
+        -0.04855,
+        -0.03888,
+        -0.04229,
+        -0.03891,
+        -0.02903,
+        -0.02172,
+        -0.02735,
+        -0.02679,
+        -0.01795
+      ],
+      "abs_cos_null_vs_sex_max": 0.05787,
+      "cos_ses_vs_sex_by_layer": [
+        0.00256,
+        -0.00076,
+        -0.00226,
+        0.00588,
+        -0.01933,
+        -0.01803,
+        0.0096,
+        0.0164,
+        0.02321,
+        0.02044,
+        0.03869,
+        0.06889,
+        0.07568,
+        0.07697,
+        0.0676,
+        0.07154,
+        0.0701,
+        0.09335,
+        0.07643,
+        0.07021,
+        0.07417,
+        0.06434,
+        0.07215,
+        0.06625,
+        0.07086,
+        0.05904,
+        0.06069,
+        0.06206,
+        0.07601,
+        0.08412,
+        0.10314,
+        0.10716,
+        0.1132,
+        0.11348,
+        0.11095,
+        0.06321
+      ]
+    }
+  },
+  "cross": {
+    "n_records": 260,
+    "n_profiles": 40,
+    "n_reused_hookfree": 45,
+    "arms": {
+      "ses_base_low": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 10.0,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 12
+      },
+      "ses_base_high": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 3.1,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 11
+      },
+      "ses_nullabl_low": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 10.7,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 19,
+          "near2": 1
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 11
+      },
+      "ses_randabl_low": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 9.25,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 19,
+          "near2": 1
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 10
+      },
+      "ses_sexabl_low": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 9.4,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 19,
+          "near2": 1
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 9
+      },
+      "null_base_A": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 6.8,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 11
+      },
+      "null_base_B": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 7.05,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 18,
+          "near2": 2
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 10
+      },
+      "null_sesabl_A": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 6.65,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 8
+      },
+      "null_sesabl_B": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 6.95,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 19,
+          "near2": 1
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 9
+      },
+      "sex_base_woman": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 5.9,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 13
+      },
+      "sex_base_man": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 4.6,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 15
+      },
+      "sex_sesabl_woman": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 6.9,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 19,
+          "near2": 1
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 11
+      },
+      "sex_randabl_woman": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "mean_phq8": 6.0,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "standard_array_rate": 0.0,
+        "distinct_arrays": 13
+      }
+    },
+    "ses_gap": {
+      "treat": "ses_base_low",
+      "ref": "ses_base_high",
+      "n_pairs": 20,
+      "mean_treat": 10.0,
+      "mean_ref": 3.1,
+      "mean_diff": 6.9,
+      "ci95": [
+        5.75,
+        8.1
+      ],
+      "p_signflip": 1.9073486328125e-06,
+      "n_nonzero": 20
+    },
+    "ses_gap_removed": {
+      "ses_nullabl_low": {
+        "quantity": "(ses_base_low - ses_nullabl_low) / (ses_base_low - ses_base_high)",
+        "n_profiles": 20,
+        "mean_num": -0.7,
+        "mean_den": 6.9,
+        "estimate": -0.10144927536231883,
+        "n_valid_resamples": 10000,
+        "ci95": [
+          -0.23846153846153847,
+          0.007043502147637581
+        ]
+      },
+      "ses_randabl_low": {
+        "quantity": "(ses_base_low - ses_randabl_low) / (ses_base_low - ses_base_high)",
+        "n_profiles": 20,
+        "mean_num": 0.75,
+        "mean_den": 6.9,
+        "estimate": 0.10869565217391304,
+        "n_valid_resamples": 10000,
+        "ci95": [
+          0.03571428571428571,
+          0.18705035971223022
+        ]
+      },
+      "ses_sexabl_low": {
+        "quantity": "(ses_base_low - ses_sexabl_low) / (ses_base_low - ses_base_high)",
+        "n_profiles": 20,
+        "mean_num": 0.6,
+        "mean_den": 6.9,
+        "estimate": 0.08695652173913043,
+        "n_valid_resamples": 10000,
+        "ci95": [
+          0.0,
+          0.16379663651780663
+        ]
+      }
+    },
+    "ses_gap_removed_minus_random": {
+      "ses_nullabl_low": {
+        "quantity": "removed[ses_nullabl_low] - removed[ses_randabl_low]",
+        "n_profiles": 20,
+        "mean_num": -1.45,
+        "mean_den": 6.9,
+        "estimate": -0.21014492753623187,
+        "n_valid_resamples": 10000,
+        "ci95": [
+          -0.32799999999999996,
+          -0.1048951048951049
+        ]
+      },
+      "ses_sexabl_low": {
+        "quantity": "removed[ses_sexabl_low] - removed[ses_randabl_low]",
+        "n_profiles": 20,
+        "mean_num": -0.15,
+        "mean_den": 6.9,
+        "estimate": -0.021739130434782608,
+        "n_valid_resamples": 10000,
+        "ci95": [
+          -0.11971830985915494,
+          0.07092198581560284
+        ]
+      }
+    },
+    "ses_abs_change_vs_base_low": {
+      "ses_nullabl_low": {
+        "treat": "ses_nullabl_low",
+        "ref": "ses_base_low",
+        "n_pairs": 20,
+        "mean_treat": 10.7,
+        "mean_ref": 10.0,
+        "mean_diff": 0.7,
+        "ci95": [
+          -0.05,
+          1.55
+        ],
+        "p_signflip": 0.15380859375,
+        "n_nonzero": 12
+      },
+      "ses_randabl_low": {
+        "treat": "ses_randabl_low",
+        "ref": "ses_base_low",
+        "n_pairs": 20,
+        "mean_treat": 9.25,
+        "mean_ref": 10.0,
+        "mean_diff": -0.75,
+        "ci95": [
+          -1.35,
+          -0.25
+        ],
+        "p_signflip": 0.01953125,
+        "n_nonzero": 12
+      },
+      "ses_sexabl_low": {
+        "treat": "ses_sexabl_low",
+        "ref": "ses_base_low",
+        "n_pairs": 20,
+        "mean_treat": 9.4,
+        "mean_ref": 10.0,
+        "mean_diff": -0.6,
+        "ci95": [
+          -1.15,
+          0.0
+        ],
+        "p_signflip": 0.08984375,
+        "n_nonzero": 9
+      }
+    },
+    "null_prompt_abs_change": {
+      "null_sesabl_A_vs_null_base_A": {
+        "treat": "null_sesabl_A",
+        "ref": "null_base_A",
+        "n_pairs": 20,
+        "mean_treat": 6.65,
+        "mean_ref": 6.8,
+        "mean_diff": -0.15,
+        "ci95": [
+          -0.65,
+          0.35
+        ],
+        "p_signflip": 0.712890625,
+        "n_nonzero": 10
+      },
+      "null_sesabl_B_vs_null_base_B": {
+        "treat": "null_sesabl_B",
+        "ref": "null_base_B",
+        "n_pairs": 20,
+        "mean_treat": 6.95,
+        "mean_ref": 7.05,
+        "mean_diff": -0.1,
+        "ci95": [
+          -0.45,
+          0.25
+        ],
+        "p_signflip": 0.796875,
+        "n_nonzero": 8
+      },
+      "null_base_A_minus_B": {
+        "treat": "null_base_A",
+        "ref": "null_base_B",
+        "n_pairs": 20,
+        "mean_treat": 6.8,
+        "mean_ref": 7.05,
+        "mean_diff": -0.25,
+        "ci95": [
+          -0.7,
+          0.2
+        ],
+        "p_signflip": 0.4140625,
+        "n_nonzero": 8
+      }
+    },
+    "sex_gap": {
+      "treat": "sex_base_woman",
+      "ref": "sex_base_man",
+      "n_pairs": 20,
+      "mean_treat": 5.9,
+      "mean_ref": 4.6,
+      "mean_diff": 1.3,
+      "ci95": [
+        0.5,
+        2.1
+      ],
+      "p_signflip": 0.008453369140625,
+      "n_nonzero": 16
+    },
+    "sex_gap_removed": {
+      "sex_sesabl_woman": {
+        "quantity": "(sex_base_woman - sex_sesabl_woman) / (sex_base_woman - sex_base_man)",
+        "n_profiles": 20,
+        "mean_num": -1.0,
+        "mean_den": 1.3,
+        "estimate": -0.7692307692307692,
+        "n_valid_resamples": 9997,
+        "ci95": [
+          -2.125,
+          -0.15384615384615385
+        ]
+      },
+      "sex_randabl_woman": {
+        "quantity": "(sex_base_woman - sex_randabl_woman) / (sex_base_woman - sex_base_man)",
+        "n_profiles": 20,
+        "mean_num": -0.1,
+        "mean_den": 1.3,
+        "estimate": -0.07692307692307693,
+        "n_valid_resamples": 9997,
+        "ci95": [
+          -0.9,
+          0.15384615384615385
+        ]
+      }
+    },
+    "sex_gap_removed_minus_random": {
+      "quantity": "removed[sex_sesabl_woman] - removed[sex_randabl_woman]",
+      "n_profiles": 20,
+      "mean_num": -0.9,
+      "mean_den": 1.3,
+      "estimate": -0.6923076923076923,
+      "n_valid_resamples": 9997,
+      "ci95": [
+        -1.5454545454545452,
+        -0.06666666666666667
+      ]
+    },
+    "sex_abs_change_vs_base_woman": {
+      "sex_sesabl_woman": {
+        "treat": "sex_sesabl_woman",
+        "ref": "sex_base_woman",
+        "n_pairs": 20,
+        "mean_treat": 6.9,
+        "mean_ref": 5.9,
+        "mean_diff": 1.0,
+        "ci95": [
+          0.2,
+          1.75
+        ],
+        "p_signflip": 0.03369140625,
+        "n_nonzero": 15
+      },
+      "sex_randabl_woman": {
+        "treat": "sex_randabl_woman",
+        "ref": "sex_base_woman",
+        "n_pairs": 20,
+        "mean_treat": 6.0,
+        "mean_ref": 5.9,
+        "mean_diff": 0.1,
+        "ci95": [
+          -0.3,
+          0.5
+        ],
+        "p_signflip": 0.806640625,
+        "n_nonzero": 13
+      }
+    },
+    "determinism": {
+      "ses_base_low": {
+        "n_compared": 20,
+        "n_identical_arrays": 20
+      },
+      "ses_base_high": {
+        "n_compared": 20,
+        "n_identical_arrays": 20
+      },
+      "sex_base_woman": {
+        "n_compared": 20,
+        "n_identical_arrays": 20
+      },
+      "sex_base_man": {
+        "n_compared": 20,
+        "n_identical_arrays": 20
+      },
+      "source": "e1/completions.jsonl, e15/behaviour"
+    }
+  },
+  "false_positive_vs_ses": [
+    {
+      "quantity": "behaviour gap A - B (PHQ-8 points)",
+      "null": {
+        "mean_diff": -0.25,
+        "ci95": [
+          -0.7,
+          0.2
+        ],
+        "p_signflip": 0.4140625,
+        "n_pairs": 20
+      },
+      "ses_reference": 6.9,
+      "gold_gap": 2.0198,
+      "null_over_ses": -0.036231884057971016,
+      "flag_R1_null_moves_behaviour": false
+    },
+    {
+      "quantity": "single-layer patch L12: arm - base_A (points)",
+      "null": {
+        "mean_diff": 0.0,
+        "ci95": [
+          -0.35,
+          0.4
+        ],
+        "p_signflip": 1.0,
+        "n_pairs": 20
+      },
+      "ses_reference": null,
+      "ses_reference_pmf": null,
+      "null_over_ses": null,
+      "flag_R2_patch_false_positive": false
+    },
+    {
+      "quantity": "single-layer patch L16: arm - base_A (points)",
+      "null": {
+        "mean_diff": 0.45,
+        "ci95": [
+          -0.05,
+          1.05
+        ],
+        "p_signflip": 0.203125,
+        "n_pairs": 20
+      },
+      "ses_reference": -3.3499999999999996,
+      "ses_reference_pmf": 0.38953488372093026,
+      "null_over_ses": -0.13432835820895525,
+      "flag_R2_patch_false_positive": false
+    },
+    {
+      "quantity": "single-layer patch L18: arm - base_A (points)",
+      "null": {
+        "mean_diff": 0.3,
+        "ci95": [
+          -0.2,
+          0.85
+        ],
+        "p_signflip": 0.36328125,
+        "n_pairs": 20
+      },
+      "ses_reference": -6.8,
+      "ses_reference_pmf": 0.7906976744186046,
+      "null_over_ses": -0.04411764705882353,
+      "flag_R2_patch_false_positive": false
+    },
+    {
+      "quantity": "single-layer patch L20: arm - base_A (points)",
+      "null": {
+        "mean_diff": 0.3,
+        "ci95": [
+          -0.15,
+          0.8
+        ],
+        "p_signflip": 0.328125,
+        "n_pairs": 20
+      },
+      "ses_reference": -4.3,
+      "ses_reference_pmf": 0.5,
+      "null_over_ses": -0.06976744186046512,
+      "flag_R2_patch_false_positive": false
+    },
+    {
+      "quantity": "all-layer patch: arm - base_A (points; positive control is B's score)",
+      "null": {
+        "mean_diff": 0.3,
+        "ci95": [
+          -0.05,
+          0.75
+        ],
+        "p_signflip": 0.265625,
+        "n_pairs": 20
+      },
+      "base_gap_B_minus_A": 0.25
+    },
+    {
+      "quantity": "direction ablation, all layers: null dirablate - randablate on the A prompt (points)",
+      "null": {
+        "mean_diff": 0.05,
+        "ci95": [
+          -0.5,
+          0.6
+        ],
+        "p_signflip": 1.0,
+        "n_pairs": 20
+      },
+      "ses_reference_dirablate_minus_rand": -2.4,
+      "flag_R3_direction_false_positive": false
+    },
+    {
+      "quantity": "direction addition L18: diradd - randadd on the B prompt (points)",
+      "null": {
+        "mean_diff": 0.4,
+        "ci95": [
+          0.05,
+          0.8
+        ],
+        "p_signflip": 0.09765625,
+        "n_pairs": 20
+      },
+      "ses_reference_diradd_minus_randadd": 5.6,
+      "flag_R3_direction_false_positive": false
+    },
+    {
+      "quantity": "direction addition L18_sesnorm: diradd - randadd on the B prompt (points)",
+      "null": {
+        "mean_diff": 0.65,
+        "ci95": [
+          0.05,
+          1.3
+        ],
+        "p_signflip": 0.078125,
+        "n_pairs": 20
+      },
+      "ses_reference_diradd_minus_randadd": 5.6,
+      "flag_R3_direction_false_positive": false
+    },
+    {
+      "quantity": "cos(d_null, d_SES) by layer (chance about 1/sqrt(H))",
+      "null": {
+        "at_add_layer": 0.0424,
+        "abs_max": 0.05848
+      },
+      "chance": 0.015625,
+      "alpha_null_over_alpha_ses_at_add_layer": 0.2931637465953827
+    },
+    {
+      "quantity": "null direction ablated on the SES grid: SES gap removed minus random",
+      "null": {
+        "estimate": -0.21014492753623187,
+        "ci95": [
+          -0.32799999999999996,
+          -0.1048951048951049
+        ]
+      },
+      "ses_reference_removed": {
+        "dirablate_all": {
+          "estimate": 0.45652173913043476,
+          "ci95": [
+            0.36496350364963503,
+            0.5488721804511277
+          ]
+        },
+        "randablate_all": {
+          "estimate": 0.10869565217391304,
+          "ci95": [
+            0.03571428571428571,
+            0.18705035971223022
+          ]
+        }
+      },
+      "flag_R4_null_direction_removes_ses_gap": false
+    },
+    {
+      "quantity": "SES direction ablated on null prompt A: arm - base (points)",
+      "null": {
+        "mean_diff": -0.15,
+        "ci95": [
+          -0.65,
+          0.35
+        ],
+        "p_signflip": 0.712890625,
+        "n_pairs": 20
+      },
+      "ses_reference_dirablate_on_low": -3.15,
+      "note": "a large shift here means the SES direction moves scores without an SES cue (severity axis)"
+    },
+    {
+      "quantity": "SES direction ablated on null prompt B: arm - base (points)",
+      "null": {
+        "mean_diff": -0.1,
+        "ci95": [
+          -0.45,
+          0.25
+        ],
+        "p_signflip": 0.796875,
+        "n_pairs": 20
+      },
+      "ses_reference_dirablate_on_low": -3.15,
+      "note": "a large shift here means the SES direction moves scores without an SES cue (severity axis)"
+    },
+    {
+      "quantity": "SES direction ablated on the E15 sex pairs: sex gap removed",
+      "null": {
+        "estimate": -0.7692307692307692,
+        "ci95": [
+          -2.125,
+          -0.15384615384615385
+        ]
+      },
+      "minus_random": {
+        "estimate": -0.6923076923076923,
+        "ci95": [
+          -1.5454545454545452,
+          -0.06666666666666667
+        ]
+      },
+      "sex_reference_own_direction": {
+        "dirablate_all": {
+          "estimate": 1.0384615384615385,
+          "ci95": [
+            0.5788304093567251,
+            2.1011111111111154
+          ]
+        },
+        "randablate_all": {
+          "estimate": -0.23076923076923075,
+          "ci95": [
+            -1.6,
+            0.28125
+          ]
+        }
+      },
+      "flag_R5_ses_direction_not_specific": false
+    },
+    {
+      "quantity": "E15 sex direction ablated on the SES grid: SES gap removed minus random",
+      "null": {
+        "estimate": -0.021739130434782608,
+        "ci95": [
+          -0.11971830985915494,
+          0.07092198581560284
+        ]
+      },
+      "ses_reference_removed": {
+        "estimate": 0.45652173913043476,
+        "ci95": [
+          0.36496350364963503,
+          0.5488721804511277
+        ]
+      }
+    }
+  ],
+  "flags_raised": [],
+  "seed": 20260813,
+  "bootstrap": "paired profile bootstrap, 10,000 resamples, percentile 95% CI, numpy default_rng(20260813) (e1.boot_idx)",
+  "p_value": "exact two-sided sign-flip over all 2^n sign patterns (e1.exact_signflip_p); Holm over patch layers",
+  "decoding": "greedy, max_new_tokens 200, 8-bit bitsandbytes, enable_thinking False, batch size 1",
+  "shards": {
+    "shard_0": {
+      "shard": "0/1",
+      "profiles": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "load_seconds": 29.8,
+      "wall_seconds": 5779.0,
+      "n_new_generations": 515,
+      "n_reused": 125,
+      "mean_gen_seconds": 10.44,
+      "finished": "2026-10-02 10:01:41"
+    }
+  }
+}

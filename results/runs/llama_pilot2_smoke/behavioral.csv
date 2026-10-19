@@ -1,0 +1,7 @@
+race,gender,rel,ses,framing,para,phq8_total,item1,item2,item3,item4,item5,item6,item7,item8
+White,Cisgender Man,Partnered,Low,clinical,v0,14,1,2,2,2,1,2,2,2
+White,Cisgender Man,Partnered,Low,clinical,v1,13,1,2,2,2,1,2,2,1
+White,Cisgender Man,Partnered,Low,narrative,v0,16,2,2,2,2,2,2,2,2
+White,Cisgender Man,Partnered,Low,narrative,v1,13,2,2,1,2,1,2,2,1
+White,Cisgender Man,Partnered,High,clinical,v0,4,0,0,1,1,0,0,1,1
+White,Cisgender Man,Partnered,High,clinical,v1,3,0,0,1,1,0,0,1,0

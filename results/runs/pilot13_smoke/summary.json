@@ -1,0 +1,10 @@
+{
+  "base_low": 11.0,
+  "base_high": 2.0,
+  "raw_patch_L18": 3.0,
+  "recon_patch_L18": 10.0,
+  "PMF_raw_patch_L18": 0.8888888888888888,
+  "PMF_recon_patch_L18": 0.1111111111111111,
+  "parse_rate": 1.0,
+  "align_ok_rate": 1.0
+}

@@ -1,0 +1,1073 @@
+{
+  "per_dose": {
+    "0": {
+      "n_generations": 60,
+      "n_profiles_complete": 20,
+      "parse_rate": 1.0,
+      "level_means": {
+        "Low": {
+          "n": 20,
+          "mean": 15.55,
+          "ci95": [
+            15.25,
+            15.8
+          ]
+        },
+        "Middle": {
+          "n": 20,
+          "mean": 10.55,
+          "ci95": [
+            9.9,
+            11.3
+          ]
+        },
+        "High": {
+          "n": 20,
+          "mean": 8.55,
+          "ci95": [
+            7.7,
+            9.4
+          ]
+        }
+      },
+      "level_residual_vs_gold": {
+        "Low": {
+          "gold": 4.25,
+          "n": 20,
+          "mean": 11.3,
+          "ci95": [
+            11.0,
+            11.55
+          ],
+          "p_signflip": 1.9073486328125e-06
+        },
+        "Middle": {
+          "gold": 3.12,
+          "n": 20,
+          "mean": 7.429999999999998,
+          "ci95": [
+            6.7799999999999985,
+            8.179999999999998
+          ],
+          "p_signflip": 1.9073486328125e-06
+        },
+        "High": {
+          "gold": 2.23,
+          "n": 20,
+          "mean": 6.3199999999999985,
+          "ci95": [
+            5.469999999999999,
+            7.17
+          ],
+          "p_signflip": 1.9073486328125e-06
+        }
+      },
+      "sum_abs_level_residual": 25.05,
+      "gap_low_minus_high": {
+        "n": 20,
+        "mean": 7.0,
+        "ci95": [
+          6.2,
+          7.75
+        ],
+        "p_signflip": 1.9073486328125e-06
+      },
+      "gap_minus_gold": {
+        "gold_gap": 2.02,
+        "estimate": 4.98,
+        "ci95": [
+          4.18,
+          5.73
+        ],
+        "p_signflip_H0_gap_eq_gold": 1.9073486328125e-06
+      },
+      "gap_low_minus_middle": {
+        "n": 20,
+        "mean": 5.0,
+        "ci95": [
+          4.3,
+          5.65
+        ],
+        "p_signflip": 1.9073486328125e-06
+      },
+      "gap_middle_minus_high": {
+        "n": 20,
+        "mean": 2.0,
+        "ci95": [
+          1.45,
+          2.55
+        ],
+        "p_signflip": 1.52587890625e-05
+      },
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "none": 60
+      },
+      "echo_standard_array_rate": 0.0,
+      "distinct_arrays": 21,
+      "distinct_arrays_by_level": {
+        "Low": 5,
+        "Middle": 7,
+        "High": 11
+      },
+      "mean_new_tokens": 35.0,
+      "frac_hit_max_new_tokens": 0.0,
+      "sex_gap_women_minus_men": {
+        "n": 10,
+        "mean": 1.7,
+        "ci95": [
+          1.2333333333333332,
+          2.1333333333333337
+        ],
+        "p_signflip": 0.00390625
+      },
+      "race_gap_minus_white": {
+        "Black": {
+          "n": 4,
+          "mean": -0.666666666666667,
+          "ci95": [
+            -1.333333333333333,
+            -0.3333333333333339
+          ],
+          "p_signflip": 0.125
+        },
+        "Hispanic": {
+          "n": 4,
+          "mean": -0.08333333333333348,
+          "ci95": [
+            -0.9166666666666661,
+            0.6666666666666665
+          ],
+          "p_signflip": 1.0
+        },
+        "Asian": {
+          "n": 4,
+          "mean": -1.0,
+          "ci95": [
+            -1.333333333333333,
+            -0.5833333333333335
+          ],
+          "p_signflip": 0.125
+        },
+        "Multiracial": {
+          "n": 4,
+          "mean": -0.08333333333333304,
+          "ci95": [
+            -0.9999999999999991,
+            0.75
+          ],
+          "p_signflip": 1.0
+        }
+      }
+    },
+    "0.25": {
+      "n_generations": 60,
+      "n_profiles_complete": 2,
+      "parse_rate": 0.4,
+      "level_means": {
+        "Low": {
+          "n": 2,
+          "mean": 14.0,
+          "ci95": [
+            14.0,
+            14.0
+          ]
+        },
+        "Middle": {
+          "n": 2,
+          "mean": 12.0,
+          "ci95": [
+            11.0,
+            13.0
+          ]
+        },
+        "High": {
+          "n": 2,
+          "mean": 12.5,
+          "ci95": [
+            11.0,
+            14.0
+          ]
+        }
+      },
+      "level_residual_vs_gold": {
+        "Low": {
+          "gold": 4.25,
+          "n": 2,
+          "mean": 9.75,
+          "ci95": [
+            9.75,
+            9.75
+          ],
+          "p_signflip": 0.5
+        },
+        "Middle": {
+          "gold": 3.12,
+          "n": 2,
+          "mean": 8.879999999999999,
+          "ci95": [
+            7.88,
+            9.879999999999999
+          ],
+          "p_signflip": 0.5
+        },
+        "High": {
+          "gold": 2.23,
+          "n": 2,
+          "mean": 10.27,
+          "ci95": [
+            8.77,
+            11.77
+          ],
+          "p_signflip": 0.5
+        }
+      },
+      "sum_abs_level_residual": 28.9,
+      "gap_low_minus_high": {
+        "n": 2,
+        "mean": 1.5,
+        "ci95": [
+          0.0,
+          3.0
+        ],
+        "p_signflip": 1.0
+      },
+      "gap_minus_gold": {
+        "gold_gap": 2.02,
+        "estimate": -0.52,
+        "ci95": [
+          -2.02,
+          0.98
+        ],
+        "p_signflip_H0_gap_eq_gold": 1.0
+      },
+      "gap_low_minus_middle": {
+        "n": 2,
+        "mean": 2.0,
+        "ci95": [
+          1.0,
+          3.0
+        ],
+        "p_signflip": 0.5
+      },
+      "gap_middle_minus_high": {
+        "n": 2,
+        "mean": -0.5,
+        "ci95": [
+          -1.0,
+          0.0
+        ],
+        "p_signflip": 1.0
+      },
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "none": 21,
+        "unparsed": 36,
+        "near2": 3
+      },
+      "echo_standard_array_rate": 0.0,
+      "distinct_arrays": 14,
+      "distinct_arrays_by_level": {
+        "Low": 6,
+        "Middle": 7,
+        "High": 4
+      },
+      "mean_new_tokens": 107.85,
+      "frac_hit_max_new_tokens": 0.38333333333333336,
+      "edit_norm_median_by_layer": {
+        "20": 1857.8618150000002,
+        "21": 139.90295500000002,
+        "22": 294.635005,
+        "23": 339.97246,
+        "24": 762.912965
+      },
+      "sex_gap_women_minus_men": {
+        "n": 0
+      },
+      "race_gap_minus_white": {
+        "Black": {
+          "n": 1,
+          "mean": 1.666666666666666,
+          "ci95": [
+            1.666666666666666,
+            1.666666666666666
+          ],
+          "p_signflip": 1.0
+        },
+        "Hispanic": {
+          "n": 0
+        },
+        "Asian": {
+          "n": 0
+        },
+        "Multiracial": {
+          "n": 0
+        }
+      },
+      "vs_beta0": {
+        "n_common_profiles": 2,
+        "gap_change": {
+          "n": 2,
+          "mean": -7.0,
+          "ci95": [
+            -9.0,
+            -5.0
+          ],
+          "p_signflip": 0.5
+        },
+        "fraction_of_beta0_gap_removed": {
+          "n": 2,
+          "estimate": 0.8235294117647058,
+          "n_valid_resamples": 10000,
+          "ci95": [
+            0.625,
+            1.0
+          ]
+        },
+        "level_shift": {
+          "Low": {
+            "n": 2,
+            "mean": -2.0,
+            "ci95": [
+              -2.0,
+              -2.0
+            ],
+            "p_signflip": 0.5
+          },
+          "Middle": {
+            "n": 2,
+            "mean": 2.0,
+            "ci95": [
+              1.0,
+              3.0
+            ],
+            "p_signflip": 0.5
+          },
+          "High": {
+            "n": 2,
+            "mean": 5.0,
+            "ci95": [
+              3.0,
+              7.0
+            ],
+            "p_signflip": 0.5
+          }
+        },
+        "sex_gap_change": {
+          "n": 0
+        },
+        "race_gap_change": {
+          "Black": {
+            "n": 1,
+            "mean": 2.0,
+            "ci95": [
+              2.0,
+              2.0
+            ],
+            "p_signflip": 1.0
+          },
+          "Hispanic": {
+            "n": 0
+          },
+          "Asian": {
+            "n": 0
+          },
+          "Multiracial": {
+            "n": 0
+          }
+        }
+      }
+    },
+    "0.5": {
+      "n_generations": 60,
+      "n_profiles_complete": 0,
+      "parse_rate": 0.016666666666666666,
+      "level_means": {
+        "Low": {
+          "n": 0
+        },
+        "Middle": {
+          "n": 0
+        },
+        "High": {
+          "n": 0
+        }
+      },
+      "level_residual_vs_gold": {
+        "Low": {
+          "gold": 4.25,
+          "n": 0
+        },
+        "Middle": {
+          "gold": 3.12,
+          "n": 0
+        },
+        "High": {
+          "gold": 2.23,
+          "n": 0
+        }
+      },
+      "gap_low_minus_high": {
+        "n": 0
+      },
+      "gap_low_minus_middle": {
+        "n": 0
+      },
+      "gap_middle_minus_high": {
+        "n": 0
+      },
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "unparsed": 59,
+        "none": 1
+      },
+      "echo_standard_array_rate": 0.0,
+      "distinct_arrays": 1,
+      "distinct_arrays_by_level": {
+        "Low": 0,
+        "Middle": 0,
+        "High": 1
+      },
+      "mean_new_tokens": 96.9,
+      "frac_hit_max_new_tokens": 0.4,
+      "edit_norm_median_by_layer": {
+        "20": 3678.58984,
+        "21": 597.87598,
+        "22": 260.34473,
+        "23": 783.62256,
+        "24": 1334.5031749999998
+      },
+      "sex_gap_women_minus_men": {
+        "n": 0
+      },
+      "race_gap_minus_white": {
+        "Black": {
+          "n": 0
+        },
+        "Hispanic": {
+          "n": 0
+        },
+        "Asian": {
+          "n": 0
+        },
+        "Multiracial": {
+          "n": 0
+        }
+      },
+      "vs_beta0": {
+        "n_common_profiles": 0,
+        "gap_change": {
+          "n": 0
+        },
+        "fraction_of_beta0_gap_removed": {
+          "n": 0
+        },
+        "level_shift": {
+          "Low": {
+            "n": 0
+          },
+          "Middle": {
+            "n": 0
+          },
+          "High": {
+            "n": 0
+          }
+        },
+        "sex_gap_change": {
+          "n": 0
+        },
+        "race_gap_change": {
+          "Black": {
+            "n": 0
+          },
+          "Hispanic": {
+            "n": 0
+          },
+          "Asian": {
+            "n": 0
+          },
+          "Multiracial": {
+            "n": 0
+          }
+        }
+      }
+    },
+    "1": {
+      "n_generations": 60,
+      "n_profiles_complete": 0,
+      "parse_rate": 0.0,
+      "level_means": {
+        "Low": {
+          "n": 0
+        },
+        "Middle": {
+          "n": 0
+        },
+        "High": {
+          "n": 0
+        }
+      },
+      "level_residual_vs_gold": {
+        "Low": {
+          "gold": 4.25,
+          "n": 0
+        },
+        "Middle": {
+          "gold": 3.12,
+          "n": 0
+        },
+        "High": {
+          "gold": 2.23,
+          "n": 0
+        }
+      },
+      "gap_low_minus_high": {
+        "n": 0
+      },
+      "gap_low_minus_middle": {
+        "n": 0
+      },
+      "gap_middle_minus_high": {
+        "n": 0
+      },
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "unparsed": 60
+      },
+      "echo_standard_array_rate": 0.0,
+      "distinct_arrays": 0,
+      "distinct_arrays_by_level": {
+        "Low": 0,
+        "Middle": 0,
+        "High": 0
+      },
+      "mean_new_tokens": 196.81666666666666,
+      "frac_hit_max_new_tokens": 0.9833333333333333,
+      "edit_norm_median_by_layer": {
+        "20": 9811.04004,
+        "21": 5409.88086,
+        "22": 556.477535,
+        "23": 1084.113525,
+        "24": 1523.135255
+      },
+      "sex_gap_women_minus_men": {
+        "n": 0
+      },
+      "race_gap_minus_white": {
+        "Black": {
+          "n": 0
+        },
+        "Hispanic": {
+          "n": 0
+        },
+        "Asian": {
+          "n": 0
+        },
+        "Multiracial": {
+          "n": 0
+        }
+      },
+      "vs_beta0": {
+        "n_common_profiles": 0,
+        "gap_change": {
+          "n": 0
+        },
+        "fraction_of_beta0_gap_removed": {
+          "n": 0
+        },
+        "level_shift": {
+          "Low": {
+            "n": 0
+          },
+          "Middle": {
+            "n": 0
+          },
+          "High": {
+            "n": 0
+          }
+        },
+        "sex_gap_change": {
+          "n": 0
+        },
+        "race_gap_change": {
+          "Black": {
+            "n": 0
+          },
+          "Hispanic": {
+            "n": 0
+          },
+          "Asian": {
+            "n": 0
+          },
+          "Multiracial": {
+            "n": 0
+          }
+        }
+      }
+    }
+  },
+  "neutral": {
+    "0": {
+      "n": 10,
+      "n_known_answer": 7,
+      "exact_match_accuracy": 1.0,
+      "lenient_match_accuracy": 1.0,
+      "mean_new_tokens": 12.5,
+      "frac_hit_max_new_tokens": 0.0,
+      "mean_repeated_trigram_rate": 0.0,
+      "texts": {
+        "photosynthesis": "Photosynthesis is the process plants use to convert light energy, water, and carbon dioxide into glucose (sugar) for food. As a byproduct, it releases oxygen into the atmosphere, which is essential for many living organisms.",
+        "add": "43",
+        "capitals": "Here are three European capitals:\n\n1.  **Paris** (France)\n2.  **Rome** (Italy)\n3.  **Berlin** (Germany)\n\n\n\n",
+        "apples": "15",
+        "train": "180",
+        "france": "Paris",
+        "pencils": "21",
+        "ocean": "The ocean is a vast, interconnected body of saltwater teeming with life and shaping Earth's climate.",
+        "multiply": "63",
+        "week": "7\n"
+      }
+    },
+    "0.25": {
+      "n": 10,
+      "n_known_answer": 7,
+      "exact_match_accuracy": 0.8571428571428571,
+      "lenient_match_accuracy": 0.8571428571428571,
+      "mean_new_tokens": 14.3,
+      "frac_hit_max_new_tokens": 0.0,
+      "mean_repeated_trigram_rate": 0.0,
+      "texts": {
+        "photosynthesis": "Photosynthesis is how plants, algae, and some bacteria convert light energy into chemical energy in the form of sugar. This process uses light, water, and carbon dioxide to create sugar and oxygen as a byproduct. \n\nEssentially, plants use sunlight to make their own food from air and water.\n",
+        "add": "49",
+        "capitals": "Here are three European capitals:\n\n*   **Paris** (France)\n*   **Rome** (Italy)\n*   **Berlin** (Germany)",
+        "apples": "15",
+        "train": "180",
+        "france": "Paris",
+        "pencils": "21",
+        "ocean": "The ocean is a vast and mysterious world of life, holding countless secrets and holding the key to our planet's health. \n",
+        "multiply": "63",
+        "week": "7"
+      },
+      "identical_to_beta0_rate": 0.5
+    },
+    "0.5": {
+      "n": 10,
+      "n_known_answer": 7,
+      "exact_match_accuracy": 0.5714285714285714,
+      "lenient_match_accuracy": 0.5714285714285714,
+      "mean_new_tokens": 31.1,
+      "frac_hit_max_new_tokens": 0.2,
+      "mean_repeated_trigram_rate": 0.034375,
+      "texts": {
+        "photosynthesis": "Plants use photosynthesis to convert light energy into chemical energy in the form of sugar-glucose-for food. This process takes in carbon dioxide and water and releases oxygen. \n\nDo you want me to explain it in more detail? \n\nDo you need me to \"explain\" photosynthesis in simpler terms?",
+        "add": "41",
+        "capitals": "Here are three European capitals:\n\n*   **Rome, Italy**\n*   **Madrid, Spain**\n*   **Berlin, Germany**\n\nDo you want to explore other European cities? I can offer more options.\n",
+        "apples": "12. 5. 8. 12. 5. 8. 12. 12. 12. 12 + 5 = 12 + 5 = 12 + 5. 12 + 5 = 12 + 5 + 8. 12 + 8 = 20.",
+        "train": "1804.70750080000\n\n47003007\n\n18047003003007\n\n1800307\n\n18003007\n\n18003007\n\n18003007\n\n1800",
+        "france": "Paris",
+        "pencils": "21",
+        "ocean": "The ocean is a vast and mysterious ecosystem teeming with life, encompassing a significant portion of our planet and holding countless secrets. \n\n",
+        "multiply": "63.",
+        "week": "7"
+      },
+      "identical_to_beta0_rate": 0.2
+    },
+    "1": {
+      "n": 10,
+      "n_known_answer": 7,
+      "exact_match_accuracy": 0.14285714285714285,
+      "lenient_match_accuracy": 0.2857142857142857,
+      "mean_new_tokens": 49.7,
+      "frac_hit_max_new_tokens": 0.6,
+      "mean_repeated_trigram_rate": 0.08612942126997428,
+      "texts": {
+        "photosynthesis": "Plants sometimes getting to be a hero with a lot of time to be explained. \n\nAnd being a hero is a lot of time. \n\nDo you still need it explained? \n\nIt's a lot of time to be explained. \n\nBut it's also a lot of time to be explained, so it is. \n\nBut it is not to be explained. ",
+        "add": "49",
+        "capitals": "Here's a list of three European capitals:\n\n*   **Berlin**\n*   **Paris**\n*   **Rome\n\nThese three also happen to be among the most populous and historically significant cities in Europe.\n\n[https://github.com/github-commerce--Waitbutering--Futurebuting--That whole thing--.[Willbutering--That whole thing--Futurebut",
+        "apples": "1200\n4200\nto Tom\n\n4200\nto Tom\n\nbut he still has 12 apples.\n\ninstead of 4200, he has 12 apples.\n\n4200 is 42000.\n\n42000-10000=12000-80",
+        "train": "423423",
+        "france": "Paris.\n\nDid it fi\u043f,au whole world need it? 1950s?8.7?\n\nIt'\u0412\u03c5 whole world need it?\u0412\u03c5 whole world,\u0412\u03c5 whole world whole world.\n\n\u0412\u03c5 whole world,\u0412\u03c5 whole world,\u0412\u03c5 whole world,\u0412\u03c5 whole world.\u0412\u03c5 whole world.\u0412\u03c5 whole world,\u0412\u03c5",
+        "pencils": "7\nten seven fifteen\n\nfifteen3\ncontinue\n\nentire Pencoed regionbu fifteen whole number\n\nentire Pencoed regionbu whole number\n\nentire Penco fifteen whole number\n\nentire Pirteen whole number\n\nentire regionbu whole number\n\nentire regionbu whole number\n\nentire P thirteen whole number\n\nentire regionbu whole thirteen\n\nentire thirteen whole number\n\nentire P whole number\n\nentire",
+        "ocean": "The ocean is a vast and mysterious expanse that covers a significant portion of our planet. \n \n(Or, if you need a simpler sentence)\n \nThere's a lot of space to move around in the ocean. \n \nAnd it's a big, important part of our planet. \n \n(And it' whole lot more to move around)",
+        "multiply": "49\n",
+        "week": "7\n"
+      },
+      "identical_to_beta0_rate": 0.1
+    }
+  },
+  "calibration": {
+    "target_gap": 2.02,
+    "note": "interpolated, needs a confirm run",
+    "doses": [
+      0.0,
+      0.25
+    ],
+    "mean_gap": [
+      7.0,
+      1.5
+    ],
+    "crossings": [
+      0.22636363636363638
+    ],
+    "beta_star": 0.22636363636363638,
+    "bootstrap": {
+      "n_profiles": 2,
+      "frac_resamples_with_crossing": 0.7443,
+      "description": "first crossing per profile resample (same resamples at every dose); crude, ignores curvature between doses",
+      "ci95": [
+        0.1938888888888889,
+        0.23142857142857146
+      ]
+    }
+  },
+  "n_generations": {
+    "clinical": 240,
+    "neutral": 40
+  },
+  "status": "EXPLORATORY",
+  "mode": "greedy",
+  "anchor_beta0_vs_e5_diffmean_base": {
+    "Low": {
+      "n": 20,
+      "identical": 20
+    },
+    "High": {
+      "n": 20,
+      "identical": 20
+    }
+  },
+  "center_identical_across_shards": true,
+  "model_id": "unsloth/gemma-3-12b-it-qat-bnb-4bit",
+  "model_revision": "084c017a3d8cdbf2b7cf0e5a0a1e3eb13a980df7",
+  "quant": "prequantised bnb-4bit checkpoint (no quantization_config passed)",
+  "dtype_residual_stream": "torch.bfloat16",
+  "direction": {
+    "path": "C:\\Research\\PsychScope\\paper_forge_2026-09-29\\experiments\\e5\\directions.pt",
+    "sha256": "11e06d96869ec9ee03b3fa886ba251c609c18713b050b9022403098b95a3fa1b",
+    "fit_meta": {
+      "n_fit_prompts": 120,
+      "n_fit_used": 120,
+      "fit_cue_misses": [],
+      "fit_profiles": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "fit_variants": [
+        "clinical_v1",
+        "narrative_v0",
+        "narrative_v1"
+      ],
+      "cue_trims": {
+        "0": 120
+      },
+      "fit_seconds": 35.8,
+      "add_layer": 20,
+      "L20_fit_pairs_low_above_high": "60/60",
+      "model_id": "unsloth/gemma-3-12b-it-qat-bnb-4bit",
+      "model_revision": "084c017a3d8cdbf2b7cf0e5a0a1e3eb13a980df7",
+      "quant": "prequantised bnb-4bit checkpoint (no quantization_config passed)",
+      "dtype_residual_stream": "torch.bfloat16",
+      "rand_orth_seed": 20260813
+    }
+  },
+  "center": {
+    "m": [
+      57.267663945092096,
+      17.360795419911543,
+      68.8838220384386,
+      57.44629384742843,
+      289.4274705674913,
+      87.23412231869167,
+      -435.08646019829644,
+      -735.889710828993,
+      -975.2146030002172,
+      -1700.4787136501736,
+      -3369.553408474392,
+      -1639.9266798231338,
+      5.984258807947238,
+      5082.517065429688,
+      8814.345263671874,
+      17104.20519748264,
+      20679.60764973958,
+      23352.86659071181,
+      34574.681206597226,
+      34955.016558159725,
+      33881.65579427083,
+      12901.560427517361,
+      21176.233007812498,
+      -917.6883071899414,
+      -14643.24262152778,
+      -14461.713926866318,
+      -3594.69180094401,
+      7354.15592719184,
+      5467.13491482205,
+      4498.035442437066,
+      7567.635340711805,
+      2859.9057142469624,
+      4743.2739854600695,
+      1649.3286802503796,
+      -1767.5352891498142,
+      4959.76786702474,
+      8065.345252821181,
+      8309.347897677952,
+      9074.546931966144,
+      13779.655870225695,
+      31660.097645399306,
+      33601.32152777777,
+      36847.620768229164,
+      23483.22822265625,
+      5489.8452216254345,
+      -9785.164824761285,
+      -16204.847932942706,
+      -48327.34900173611
+    ],
+    "mode": "fit_cue_grand_mean",
+    "source": "fit families (clinical v1, narrative v0, narrative v1) x Low/Middle/High, cue-span mean projection on d_L, equal weight per level",
+    "per_level_fit_cue_proj": {
+      "Low": [
+        83.69796765645346,
+        44.41277542114258,
+        94.35982793172201,
+        85.53727315266927,
+        320.8349380493164,
+        118.88986358642578,
+        -396.45414479573566,
+        -693.6520334879557,
+        -933.6540445963542,
+        -1637.526914469401,
+        -3318.525602213542,
+        -1587.814335123698,
+        80.36852340698242,
+        5190.1515706380205,
+        8969.580240885416,
+        17347.8439453125,
+        21056.055859375,
+        23683.03232421875,
+        35096.95559895833,
+        35554.42428385417,
+        34373.2517578125,
+        13213.413623046876,
+        21563.7361328125,
+        -565.5242060343425,
+        -14302.713525390625,
+        -14043.678352864583,
+        -3059.0430704752603,
+        8080.766861979167,
+        6300.376350911459,
+        5403.51923828125,
+        8540.358072916666,
+        3942.0710489908856,
+        5926.143904622396,
+        2887.033565266927,
+        -479.2639566421509,
+        6406.965275065104,
+        9698.065250651041,
+        10018.1671875,
+        10866.93466796875,
+        15707.045784505208,
+        33972.59915364583,
+        35999.812760416666,
+        39400.20911458333,
+        25780.6916015625,
+        7813.274625651042,
+        -7201.590340169271,
+        -13187.894759114582,
+        -43566.34173177083
+      ],
+      "Middle": [
+        50.35021114349365,
+        9.71946153640747,
+        68.58174177805583,
+        55.92648194630941,
+        287.4128575642904,
+        84.10505231221516,
+        -436.0611643473307,
+        -734.4776621500652,
+        -964.9575927734375,
+        -1711.160243733724,
+        -3331.9318684895834,
+        -1617.2945922851563,
+        -4.459680406500896,
+        5051.920743815104,
+        8717.749397786458,
+        16936.495540364584,
+        20360.725944010417,
+        23141.09384765625,
+        34212.392903645836,
+        34381.762109375,
+        33498.318619791666,
+        12766.816324869791,
+        20992.674153645832,
+        -972.3067576090494,
+        -14571.030794270833,
+        -14375.969791666666,
+        -3641.982666015625,
+        7115.643994140625,
+        5217.376513671875,
+        4243.799772135417,
+        7216.6358642578125,
+        2585.4841145833334,
+        4408.152750651042,
+        1356.1793426513673,
+        -2014.6029174804687,
+        4522.041231282552,
+        7473.546069335937,
+        7687.839990234375,
+        8433.535953776041,
+        13029.286604817707,
+        30452.378190104166,
+        32431.849967447917,
+        35557.67135416667,
+        22624.3314453125,
+        4862.877388509115,
+        -10588.324837239583,
+        -17383.489404296874,
+        -52349.00794270833
+      ],
+      "High": [
+        37.754813035329185,
+        -2.049850697815418,
+        43.709896405537926,
+        30.875126443306605,
+        260.0346160888672,
+        58.707451057434085,
+        -472.7440714518229,
+        -779.5394368489583,
+        -1027.0321716308595,
+        -1752.7489827473958,
+        -3458.202754720052,
+        -1714.6711120605469,
+        -57.95606657663981,
+        5005.4788818359375,
+        8755.70615234375,
+        17028.276106770834,
+        20622.041145833333,
+        23234.473600260415,
+        34414.6951171875,
+        34928.86328125,
+        33773.39700520833,
+        12724.451334635416,
+        20972.288736979168,
+        -1215.2339579264324,
+        -15055.983544921875,
+        -14965.493636067707,
+        -4083.049666341146,
+        6866.0569254557295,
+        4883.651879882813,
+        3846.787316894531,
+        6945.912084960937,
+        2052.1619791666667,
+        3895.5253011067707,
+        704.773132832845,
+        -2808.7389933268228,
+        3950.2970947265626,
+        7024.4244384765625,
+        7222.036515299479,
+        7923.170174153646,
+        12602.635221354167,
+        30555.315592447918,
+        32372.30185546875,
+        35584.9818359375,
+        22044.66162109375,
+        3793.383650716146,
+        -11565.579296875,
+        -18043.159635416665,
+        -49066.69733072917
+      ]
+    },
+    "fit_counts": {
+      "Low": 60,
+      "Middle": 60,
+      "High": 60
+    },
+    "fit_misses": [],
+    "directions_low_high_center_max_abs_diff": 0.0008324746959260665,
+    "test_prompt_diag_columns": [
+      "cue_span_mean_proj",
+      "all_position_mean_proj",
+      "last_token_proj"
+    ],
+    "profiles": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "capture_seconds": 79.5,
+    "direction_sha256": "11e06d96869ec9ee03b3fa886ba251c609c18713b050b9022403098b95a3fa1b",
+    "example": "rotated"
+  },
+  "edit_layers": [
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "decoding": "greedy, max_new_tokens 200, Gemma 3 template, batch 1",
+  "gold": {
+    "Low": 4.25,
+    "Middle": 3.12,
+    "High": 2.23,
+    "gap": 2.02
+  },
+  "hashes": {
+    "e5_gemma_patch.py": "ac0c927ca1b64437",
+    "gemma_common.py": "04d4288b274d26cb",
+    "e9b_llama_diffmean.py": "52a0ff7c3c4d3c40"
+  },
+  "example": "rotated",
+  "shards": {
+    "shard_0": {
+      "shard": "0/1",
+      "doses": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "cuda_visible_devices": "0",
+      "wall_seconds": 7004.2,
+      "load_seconds": 11.2,
+      "rss_after_load": "RSS 1.15 GB, private 9.49 GB; host available 16.9 GB",
+      "n_generations": 280,
+      "mean_gen_seconds": 24.62
+    }
+  },
+  "qwen_e14_reference": "experiments/e14/summary.json (Qwen3-8B; gold gap 2.02)"
+}

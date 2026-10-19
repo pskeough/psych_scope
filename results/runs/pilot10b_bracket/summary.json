@@ -1,0 +1,16 @@
+{
+  "base_low": 11.0,
+  "base_high": 2.4,
+  "low_from_high_5L": 5.05,
+  "low_from_high_L19": 5.5,
+  "low_from_high_L20": 6.7,
+  "low_from_high_L22": 9.05,
+  "low_from_high_L23": 10.9,
+  "PMF_low_from_high_5L": 0.6918604651162791,
+  "PMF_low_from_high_L19": 0.6395348837209303,
+  "PMF_low_from_high_L20": 0.5,
+  "PMF_low_from_high_L22": 0.22674418604651156,
+  "PMF_low_from_high_L23": 0.011627906976744146,
+  "parse_rate": 1.0,
+  "align_ok_rate": 1.0
+}

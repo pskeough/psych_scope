@@ -1,0 +1,1183 @@
+{
+  "experiment": "N3 held-out frozen cell",
+  "status": "EXPLORATORY",
+  "model": "qwen",
+  "partial": false,
+  "cell": "high:L18:2",
+  "layers": [
+    18
+  ],
+  "cell_provenance": {
+    "cell_source": "N2 summary selection.frozen_cell",
+    "layers_source": "N2 summary"
+  },
+  "setpoint_source": {
+    "source": "C:\\Research\\PsychScope\\paper_forge_2026-09-29\\experiments\\n2\\qwen\\center_levels.json",
+    "grand_check": {
+      "pass": true,
+      "max_abs_diff": 0.0,
+      "max_rel_diff": 0.0,
+      "worst_layer": 1,
+      "tolerance": "|fresh - stored| <= 0.05 + 0.01|stored|"
+    }
+  },
+  "gold": {
+    "levels": {
+      "Low": 4.25,
+      "Middle": 3.12,
+      "High": 2.23
+    },
+    "gap": 2.02,
+    "middle_fraction": 0.44059405940594065,
+    "nhanes_read": {
+      "ses_w_mean": {
+        "Low": 4.246984,
+        "Middle": 3.118258,
+        "High": 2.227231
+      },
+      "gap_low_high": 2.019753,
+      "sex_women_minus_men": 0.938037,
+      "rel_single_minus_partnered": 1.0261,
+      "nhanes_csv": "C:\\Research\\PsychBench\\UpdatedRun\\groundtruth\\phq8_groundtruth_nhanes_2005_2018.csv",
+      "rel_csv": "C:\\Research\\PsychScope\\paper_forge_2026-09-29\\analysis\\t12-race-relationship-nhanes.csv",
+      "nhanes_sha256": "2c81ccd18871f846"
+    }
+  },
+  "design": {
+    "gender_x_array": {
+      "Cisgender Man": [
+        3,
+        4,
+        4,
+        4
+      ],
+      "Cisgender Woman": [
+        4,
+        3,
+        4,
+        4
+      ]
+    },
+    "rel_x_array": {
+      "Partnered": [
+        4,
+        3,
+        4,
+        4
+      ],
+      "Single": [
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    "gender_rel_x_array": {
+      "Man/Partnered": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "Man/Single": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "Woman/Partnered": [
+        2,
+        1,
+        2,
+        2
+      ],
+      "Woman/Single": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "age_x_rel": {
+      "25": [
+        5,
+        5
+      ],
+      "45": [
+        5,
+        5
+      ],
+      "65": [
+        5,
+        5
+      ]
+    },
+    "race_x_array": {
+      "White": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "Black": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "Hispanic": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "Asian": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "Multiracial": [
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    "array_totals": [
+      7,
+      7,
+      8,
+      8
+    ],
+    "every_gender_sees_every_array": true,
+    "every_rel_sees_every_array": true,
+    "every_gender_rel_cell_sees_every_array": true
+  },
+  "label": "HELD-OUT = PRIMARY (profiles never used for fitting or for choosing the cell)",
+  "n_heldout_profiles": 30,
+  "arm_quality": {
+    "base_high": {
+      "n": 30,
+      "parse_rate": 1.0,
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "none": 29,
+        "near2": 1
+      },
+      "distinct_arrays": 17,
+      "mean_new_tokens": 30.0,
+      "frac_hit_max_new_tokens": 0.0
+    },
+    "base_low": {
+      "n": 30,
+      "parse_rate": 1.0,
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "none": 30
+      },
+      "distinct_arrays": 12,
+      "mean_new_tokens": 30.0,
+      "frac_hit_max_new_tokens": 0.0
+    },
+    "base_mid": {
+      "n": 30,
+      "parse_rate": 1.0,
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "none": 30
+      },
+      "distinct_arrays": 15,
+      "mean_new_tokens": 30.0,
+      "frac_hit_max_new_tokens": 0.0
+    },
+    "calib_high": {
+      "n": 30,
+      "parse_rate": 1.0,
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "none": 30
+      },
+      "distinct_arrays": 14,
+      "mean_new_tokens": 30.0,
+      "frac_hit_max_new_tokens": 0.0
+    },
+    "calib_low": {
+      "n": 30,
+      "parse_rate": 1.0,
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "none": 28,
+        "near2": 2
+      },
+      "distinct_arrays": 16,
+      "mean_new_tokens": 30.0,
+      "frac_hit_max_new_tokens": 0.0
+    },
+    "calib_mid": {
+      "n": 30,
+      "parse_rate": 1.0,
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "none": 30
+      },
+      "distinct_arrays": 14,
+      "mean_new_tokens": 30.0,
+      "frac_hit_max_new_tokens": 0.0
+    },
+    "randm_high": {
+      "n": 30,
+      "parse_rate": 1.0,
+      "verbatim_echo_rate": 0.03333333333333333,
+      "echo_classes": {
+        "none": 29,
+        "verbatim": 1
+      },
+      "distinct_arrays": 13,
+      "mean_new_tokens": 30.0,
+      "frac_hit_max_new_tokens": 0.0
+    },
+    "randm_low": {
+      "n": 30,
+      "parse_rate": 1.0,
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "none": 24,
+        "near2": 6
+      },
+      "distinct_arrays": 12,
+      "mean_new_tokens": 30.0,
+      "frac_hit_max_new_tokens": 0.0
+    }
+  },
+  "base": {
+    "n_profiles_complete": 30,
+    "level_means": {
+      "Low": {
+        "n": 30,
+        "mean": 9.833333333333334,
+        "ci95": [
+          9.366666666666667,
+          10.3
+        ]
+      },
+      "Middle": {
+        "n": 30,
+        "mean": 6.833333333333333,
+        "ci95": [
+          6.166666666666667,
+          7.466666666666667
+        ]
+      },
+      "High": {
+        "n": 30,
+        "mean": 4.566666666666666,
+        "ci95": [
+          4.066666666666666,
+          5.066666666666666
+        ]
+      }
+    },
+    "level_residual_vs_gold": {
+      "Low": {
+        "gold": 4.25,
+        "n": 30,
+        "mean": 5.583333333333333,
+        "ci95": [
+          5.116666666666666,
+          6.05
+        ],
+        "p_signflip": 1.862645149230957e-09,
+        "p_method": "exact_convolution_scale_4"
+      },
+      "Middle": {
+        "gold": 3.12,
+        "n": 30,
+        "mean": 3.7133333333333325,
+        "ci95": [
+          3.046666666666666,
+          4.346666666666666
+        ],
+        "p_signflip": 1.862645149230957e-09,
+        "p_method": "exact_convolution_scale_25"
+      },
+      "High": {
+        "gold": 2.23,
+        "n": 30,
+        "mean": 2.3366666666666664,
+        "ci95": [
+          1.8366666666666673,
+          2.8366666666666656
+        ],
+        "p_signflip": 3.3527612686157227e-08,
+        "p_method": "exact_convolution_scale_100"
+      }
+    },
+    "gap_low_minus_high": {
+      "n": 30,
+      "mean": 5.266666666666667,
+      "ci95": [
+        4.766666666666667,
+        5.766666666666667
+      ],
+      "p_signflip": 1.862645149230957e-09,
+      "p_method": "exact_convolution_scale_1"
+    },
+    "gap_minus_gold": {
+      "gold_gap": 2.02,
+      "estimate": 3.2466666666666666,
+      "ci95": [
+        2.7466666666666666,
+        3.7466666666666666
+      ],
+      "p_signflip_H0_gap_eq_gold": 1.862645149230957e-09,
+      "p_method": "exact_convolution_scale_50",
+      "ci_includes_gold": false
+    },
+    "sum_abs_level_residual": 11.633333333333333,
+    "middle_fraction": {
+      "n": 30,
+      "estimate": 0.43037974683544306,
+      "n_valid_resamples": 10000,
+      "ci95": [
+        0.32450331125827814,
+        0.5389221556886228
+      ],
+      "reference": 0.44059405940594065,
+      "minus_reference": -0.010214312570497597
+    }
+  },
+  "calib": {
+    "n_profiles_complete": 30,
+    "level_means": {
+      "Low": {
+        "n": 30,
+        "mean": 7.333333333333333,
+        "ci95": [
+          6.833333333333333,
+          7.833333333333333
+        ]
+      },
+      "Middle": {
+        "n": 30,
+        "mean": 6.133333333333334,
+        "ci95": [
+          5.665833333333334,
+          6.6
+        ]
+      },
+      "High": {
+        "n": 30,
+        "mean": 3.6,
+        "ci95": [
+          2.8,
+          4.4
+        ]
+      }
+    },
+    "level_residual_vs_gold": {
+      "Low": {
+        "gold": 4.25,
+        "n": 30,
+        "mean": 3.0833333333333335,
+        "ci95": [
+          2.5833333333333335,
+          3.5833333333333335
+        ],
+        "p_signflip": 3.725290298461914e-09,
+        "p_method": "exact_convolution_scale_4"
+      },
+      "Middle": {
+        "gold": 3.12,
+        "n": 30,
+        "mean": 3.0133333333333328,
+        "ci95": [
+          2.5458333333333334,
+          3.479999999999999
+        ],
+        "p_signflip": 1.862645149230957e-09,
+        "p_method": "exact_convolution_scale_25"
+      },
+      "High": {
+        "gold": 2.23,
+        "n": 30,
+        "mean": 1.3700000000000006,
+        "ci95": [
+          0.5700000000000001,
+          2.1700000000000004
+        ],
+        "p_signflip": 0.0026947297155857086,
+        "p_method": "exact_convolution_scale_100"
+      }
+    },
+    "gap_low_minus_high": {
+      "n": 30,
+      "mean": 3.7333333333333334,
+      "ci95": [
+        2.966666666666667,
+        4.466666666666667
+      ],
+      "p_signflip": 2.9802322387695312e-08,
+      "p_method": "exact_convolution_scale_1"
+    },
+    "gap_minus_gold": {
+      "gold_gap": 2.02,
+      "estimate": 1.7133333333333334,
+      "ci95": [
+        0.9466666666666668,
+        2.4466666666666668
+      ],
+      "p_signflip_H0_gap_eq_gold": 0.0003253072500228882,
+      "p_method": "exact_convolution_scale_50",
+      "ci_includes_gold": false
+    },
+    "sum_abs_level_residual": 7.466666666666667,
+    "middle_fraction": {
+      "n": 30,
+      "estimate": 0.6785714285714285,
+      "n_valid_resamples": 10000,
+      "ci95": [
+        0.537037037037037,
+        0.8090926439972242
+      ],
+      "reference": 0.44059405940594065,
+      "minus_reference": 0.23797736916548784
+    }
+  },
+  "calib_vs_base": {
+    "n_common_profiles": 30,
+    "gap_change": {
+      "n": 30,
+      "mean": -1.5333333333333334,
+      "ci95": [
+        -2.3,
+        -0.7333333333333333
+      ],
+      "p_signflip": 0.0012871325016021729,
+      "p_method": "exact_convolution_scale_1"
+    },
+    "fraction_of_base_gap_removed": {
+      "n": 30,
+      "estimate": 0.2911392405063291,
+      "n_valid_resamples": 10000,
+      "ci95": [
+        0.14666666666666667,
+        0.43037974683544306
+      ]
+    },
+    "dLow": {
+      "n": 30,
+      "mean": -2.5,
+      "ci95": [
+        -2.966666666666667,
+        -2.0
+      ],
+      "p_signflip": 1.4901161193847656e-08,
+      "p_method": "exact_convolution_scale_1"
+    },
+    "dMiddle": {
+      "n": 30,
+      "mean": -0.7,
+      "ci95": [
+        -1.1666666666666667,
+        -0.23333333333333334
+      ],
+      "p_signflip": 0.01230621337890625,
+      "p_method": "exact_convolution_scale_1"
+    },
+    "dHigh": {
+      "n": 30,
+      "mean": -0.9666666666666667,
+      "ci95": [
+        -1.6,
+        -0.36666666666666664
+      ],
+      "p_signflip": 0.0066070556640625,
+      "p_method": "exact_convolution_scale_1"
+    }
+  },
+  "random_direction_matched_norm": {
+    "Low": {
+      "n": 30,
+      "random_shift": {
+        "n": 30,
+        "mean": 1.3333333333333333,
+        "ci95": [
+          0.8,
+          1.9
+        ],
+        "p_signflip": 7.05718994140625e-05,
+        "p_method": "exact_convolution_scale_1"
+      },
+      "calib_shift": {
+        "n": 30,
+        "mean": -2.5,
+        "ci95": [
+          -2.966666666666667,
+          -2.0
+        ],
+        "p_signflip": 1.4901161193847656e-08,
+        "p_method": "exact_convolution_scale_1"
+      },
+      "calib_minus_random_shift": {
+        "n": 30,
+        "mean": -3.8333333333333335,
+        "ci95": [
+          -4.433333333333334,
+          -3.2333333333333334
+        ],
+        "p_signflip": 3.725290298461914e-09,
+        "p_method": "exact_convolution_scale_1"
+      },
+      "random_over_calib_shift": {
+        "n": 30,
+        "estimate": -0.5333333333333333,
+        "n_valid_resamples": 10000,
+        "ci95": [
+          -0.8656716417910447,
+          -0.2888888888888889
+        ]
+      }
+    },
+    "High": {
+      "n": 30,
+      "random_shift": {
+        "n": 30,
+        "mean": 2.066666666666667,
+        "ci95": [
+          1.6333333333333333,
+          2.5
+        ],
+        "p_signflip": 5.960464477539063e-08,
+        "p_method": "exact_convolution_scale_1"
+      },
+      "calib_shift": {
+        "n": 30,
+        "mean": -0.9666666666666667,
+        "ci95": [
+          -1.6,
+          -0.36666666666666664
+        ],
+        "p_signflip": 0.0066070556640625,
+        "p_method": "exact_convolution_scale_1"
+      },
+      "calib_minus_random_shift": {
+        "n": 30,
+        "mean": -3.033333333333333,
+        "ci95": [
+          -3.8333333333333335,
+          -2.2666666666666666
+        ],
+        "p_signflip": 1.1920928955078125e-07,
+        "p_method": "exact_convolution_scale_1"
+      },
+      "random_over_calib_shift": {
+        "n": 30,
+        "estimate": -2.137931034482759,
+        "n_valid_resamples": 9996,
+        "ci95": [
+          -5.416666666666666,
+          -1.2180830039525692
+        ]
+      }
+    }
+  },
+  "ols_array_covariate": {
+    "n_clusters": 30,
+    "covariates": [
+      "intercept",
+      "level_Middle",
+      "level_High",
+      "woman",
+      "single",
+      "array_1",
+      "array_2",
+      "array_3",
+      "race_Black",
+      "race_Hispanic",
+      "race_Asian",
+      "race_Multiracial"
+    ],
+    "targets": [
+      "woman",
+      "single"
+    ],
+    "arms": {
+      "base": {
+        "n_rows": 90,
+        "rank_full": true,
+        "n_valid_resamples": 9922,
+        "woman": {
+          "estimate": 0.8856060606060692,
+          "ci95": [
+            -0.10138466376300662,
+            1.7899519531207708
+          ],
+          "p_boot_two_sided": 0.07720217698044748,
+          "nhanes": 0.938037,
+          "minus_nhanes": -0.05243093939393084,
+          "ratio_to_nhanes": 0.9441056809124471,
+          "ratio_ci95": [
+            -0.10808173213104239,
+            1.908189072628021
+          ]
+        },
+        "single": {
+          "estimate": 0.4477272727272825,
+          "ci95": [
+            -0.44372909881511996,
+            1.4107232782006065
+          ],
+          "p_boot_two_sided": 0.33682725257004636,
+          "nhanes": 1.0261,
+          "minus_nhanes": -0.5783727272727175,
+          "ratio_to_nhanes": 0.43633882928299633,
+          "ratio_ci95": [
+            -0.43244235339159914,
+            1.3748399553655652
+          ]
+        }
+      },
+      "calib": {
+        "n_rows": 90,
+        "rank_full": true,
+        "n_valid_resamples": 9922,
+        "woman": {
+          "estimate": 0.7977272727272781,
+          "ci95": [
+            -0.39261084531614754,
+            1.9090564983470086
+          ],
+          "p_boot_two_sided": 0.18181818181818182,
+          "nhanes": 0.938037,
+          "minus_nhanes": -0.14030972727272195,
+          "ratio_to_nhanes": 0.8504219692051359,
+          "ratio_ci95": [
+            -0.41854515900348016,
+            2.0351611912398
+          ]
+        },
+        "single": {
+          "estimate": 0.24393939393939978,
+          "ci95": [
+            -0.8935195660374748,
+            1.4450749120957767
+          ],
+          "p_boot_two_sided": 0.6736545051400927,
+          "nhanes": 1.0261,
+          "minus_nhanes": -0.7821606060606002,
+          "ratio_to_nhanes": 0.23773452289192065,
+          "ratio_ci95": [
+            -0.8707918975124012,
+            1.408317817070243
+          ]
+        }
+      },
+      "diff": {
+        "n_rows": 90,
+        "rank_full": true,
+        "n_valid_resamples": 9922,
+        "woman": {
+          "estimate": -0.08787878787879166,
+          "ci95": [
+            -0.7688262079568869,
+            0.6203054880847635
+          ],
+          "p_boot_two_sided": 0.7421890747833099
+        },
+        "single": {
+          "estimate": -0.20378787878788152,
+          "ci95": [
+            -0.8505357506536868,
+            0.45343475437722497
+          ],
+          "p_boot_two_sided": 0.5375932271719411
+        }
+      }
+    },
+    "distance_to_nhanes_change": {
+      "woman": {
+        "estimate": 0.08787878787879111,
+        "meaning": "|calib - NHANES| - |base - NHANES|; negative = calib closer",
+        "ci95": [
+          -0.4565550286464919,
+          0.7335705969594027
+        ]
+      },
+      "single": {
+        "estimate": 0.20378787878788274,
+        "meaning": "|calib - NHANES| - |base - NHANES|; negative = calib closer",
+        "ci95": [
+          -0.3614303423077067,
+          0.8428079005164237
+        ]
+      }
+    },
+    "model": "score ~ level + gender + rel + array + race; clusters = held-out profiles"
+  },
+  "ols_age_sensitivity": {
+    "n_clusters": 30,
+    "covariates": [
+      "intercept",
+      "level_Middle",
+      "level_High",
+      "woman",
+      "single",
+      "array_1",
+      "array_2",
+      "array_3",
+      "race_Black",
+      "race_Hispanic",
+      "race_Asian",
+      "race_Multiracial",
+      "age_45",
+      "age_65"
+    ],
+    "targets": [
+      "woman",
+      "single",
+      "age_45",
+      "age_65"
+    ],
+    "arms": {
+      "base": {
+        "n_rows": 90,
+        "rank_full": true,
+        "n_valid_resamples": 9897,
+        "woman": {
+          "estimate": 0.8580556973046751,
+          "ci95": [
+            0.09217513096257761,
+            1.5517538503215287
+          ],
+          "p_boot_two_sided": 0.033343437405274325,
+          "nhanes": 0.938037,
+          "minus_nhanes": -0.07998130269532489,
+          "ratio_to_nhanes": 0.9147354499925644,
+          "ratio_ci95": [
+            0.09826385415775456,
+            1.6542565488584444
+          ]
+        },
+        "single": {
+          "estimate": 0.4752776360287001,
+          "ci95": [
+            -0.27746062470742056,
+            1.1259629593367197
+          ],
+          "p_boot_two_sided": 0.17783166616146306,
+          "nhanes": 1.0261,
+          "minus_nhanes": -0.5508223639712999,
+          "ratio_to_nhanes": 0.4631884183107885,
+          "ratio_ci95": [
+            -0.27040310370082893,
+            1.0973228333853617
+          ]
+        },
+        "age_45": {
+          "estimate": 1.0865688165440026,
+          "ci95": [
+            0.1157848782727895,
+            1.898077551976948
+          ],
+          "p_boot_two_sided": 0.03536425179347277
+        },
+        "age_65": {
+          "estimate": -0.7194405763758434,
+          "ci95": [
+            -1.5991549834603205,
+            0.33770953287276206
+          ],
+          "p_boot_two_sided": 0.14327574012326968
+        }
+      },
+      "calib": {
+        "n_rows": 90,
+        "rank_full": true,
+        "n_valid_resamples": 9897,
+        "woman": {
+          "estimate": 0.7561505894360054,
+          "ci95": [
+            -0.004844794676977535,
+            1.5137855779397897
+          ],
+          "p_boot_two_sided": 0.05132868546024048,
+          "nhanes": 0.938037,
+          "minus_nhanes": -0.18188641056399457,
+          "ratio_to_nhanes": 0.8060988952845202,
+          "ratio_ci95": [
+            -0.005164822578403128,
+            1.613780243145835
+          ]
+        },
+        "single": {
+          "estimate": 0.28551607723068706,
+          "ci95": [
+            -0.510974685058391,
+            1.0052894597031357
+          ],
+          "p_boot_two_sided": 0.45003536425179347,
+          "nhanes": 1.0261,
+          "minus_nhanes": -0.740583922769313,
+          "ratio_to_nhanes": 0.278253656788507,
+          "ratio_ci95": [
+            -0.4979774730127581,
+            0.9797187990479834
+          ]
+        },
+        "age_45": {
+          "estimate": 0.9350077986028874,
+          "ci95": [
+            -0.03921565810633536,
+            1.7977763886215568
+          ],
+          "p_boot_two_sided": 0.05920986157421441
+        },
+        "age_65": {
+          "estimate": -1.4380940848822348,
+          "ci95": [
+            -2.4816778031006677,
+            -0.4494951025406113
+          ],
+          "p_boot_two_sided": 0.009497827624532686
+        }
+      },
+      "diff": {
+        "n_rows": 90,
+        "rank_full": true,
+        "n_valid_resamples": 9897,
+        "woman": {
+          "estimate": -0.10190510786866835,
+          "ci95": [
+            -0.7734765975017114,
+            0.641591270214878
+          ],
+          "p_boot_two_sided": 0.7240577952915025
+        },
+        "single": {
+          "estimate": -0.18976155879801215,
+          "ci95": [
+            -0.8968118736937079,
+            0.4744870735295928
+          ],
+          "p_boot_two_sided": 0.5761341820753764
+        },
+        "age_45": {
+          "estimate": -0.15156101794111387,
+          "ci95": [
+            -0.9371494356420584,
+            0.663771048814148
+          ],
+          "p_boot_two_sided": 0.6300899262402748
+        },
+        "age_65": {
+          "estimate": -0.7186535085063902,
+          "ci95": [
+            -1.627860991627683,
+            0.13731229939633577
+          ],
+          "p_boot_two_sided": 0.08770334444781247
+        }
+      }
+    },
+    "distance_to_nhanes_change": {
+      "woman": {
+        "estimate": 0.10190510786866969,
+        "meaning": "|calib - NHANES| - |base - NHANES|; negative = calib closer",
+        "ci95": [
+          -0.5570808508380931,
+          0.6253791568556442
+        ]
+      },
+      "single": {
+        "estimate": 0.18976155879801304,
+        "meaning": "|calib - NHANES| - |base - NHANES|; negative = calib closer",
+        "ci95": [
+          -0.4683194709884173,
+          0.8426953175634074
+        ]
+      }
+    }
+  },
+  "raw_contrasts": {
+    "base": {
+      "sex_women_minus_men": {
+        "mean_a": 7.51111111111111,
+        "mean_b": 6.644444444444446,
+        "diff": 0.8666666666666645,
+        "n_a": 15,
+        "n_b": 15,
+        "note": "unadjusted, descriptive; the OLS with array as a covariate is the reported estimate"
+      },
+      "rel_single_minus_partnered": {
+        "mean_a": 7.355555555555556,
+        "mean_b": 6.799999999999999,
+        "diff": 0.5555555555555571,
+        "n_a": 15,
+        "n_b": 15,
+        "note": "unadjusted, descriptive; the OLS with array as a covariate is the reported estimate"
+      }
+    },
+    "calib": {
+      "sex_women_minus_men": {
+        "mean_a": 6.0888888888888895,
+        "mean_b": 5.288888888888889,
+        "diff": 0.8000000000000007,
+        "n_a": 15,
+        "n_b": 15,
+        "note": "unadjusted, descriptive; the OLS with array as a covariate is the reported estimate"
+      },
+      "rel_single_minus_partnered": {
+        "mean_a": 5.844444444444444,
+        "mean_b": 5.533333333333334,
+        "diff": 0.31111111111111,
+        "n_a": 15,
+        "n_b": 15,
+        "note": "unadjusted, descriptive; the OLS with array as a covariate is the reported estimate"
+      }
+    }
+  },
+  "base_by_age": {
+    "25": {
+      "Low": 10.0,
+      "Middle": 6.6,
+      "High": 4.4
+    },
+    "45": {
+      "Low": 10.7,
+      "Middle": 8.2,
+      "High": 5.3
+    },
+    "65": {
+      "Low": 8.8,
+      "Middle": 5.7,
+      "High": 4.0
+    }
+  },
+  "sex_pairs": {
+    "n_pairs_planned": 20,
+    "nhanes_women_minus_men": 0.938037,
+    "quality": {
+      "sp_base_woman": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "distinct_arrays": 13,
+        "mean_new_tokens": 30.0,
+        "frac_hit_max_new_tokens": 0.0
+      },
+      "sp_base_man": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "distinct_arrays": 15,
+        "mean_new_tokens": 30.0,
+        "frac_hit_max_new_tokens": 0.0
+      },
+      "sp_calib_woman": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "distinct_arrays": 9,
+        "mean_new_tokens": 30.0,
+        "frac_hit_max_new_tokens": 0.0
+      },
+      "sp_calib_man": {
+        "n": 20,
+        "parse_rate": 1.0,
+        "verbatim_echo_rate": 0.0,
+        "echo_classes": {
+          "none": 20
+        },
+        "distinct_arrays": 11,
+        "mean_new_tokens": 30.0,
+        "frac_hit_max_new_tokens": 0.0
+      }
+    },
+    "base_gap": {
+      "n": 20,
+      "mean": 1.3,
+      "ci95": [
+        0.5,
+        2.1
+      ],
+      "p_signflip": 0.008453369140625,
+      "p_method": "exact_enumeration"
+    },
+    "base_gap_minus_nhanes": {
+      "n": 20,
+      "mean": 1.3,
+      "ci95": [
+        0.5,
+        2.1
+      ],
+      "p_signflip": 0.3976268768310547,
+      "p_method": "exact_enumeration",
+      "p_null": 0.938037
+    },
+    "calib_gap": {
+      "n": 20,
+      "mean": 0.65,
+      "ci95": [
+        -0.2,
+        1.5
+      ],
+      "p_signflip": 0.201171875,
+      "p_method": "exact_enumeration"
+    },
+    "calib_gap_minus_nhanes": {
+      "n": 20,
+      "mean": 0.65,
+      "ci95": [
+        -0.2,
+        1.5
+      ],
+      "p_signflip": 0.5130805969238281,
+      "p_method": "exact_enumeration",
+      "p_null": 0.938037
+    },
+    "gap_change_calib_minus_base": {
+      "n": 20,
+      "mean": -0.65,
+      "ci95": [
+        -1.4,
+        0.1
+      ],
+      "p_signflip": 0.139068603515625,
+      "p_method": "exact_enumeration"
+    },
+    "note": "E15 builder, levels Middle/High, balanced arrays; in-sample prompt family (no age field)"
+  },
+  "kl_neutral": {
+    "n_items": 10,
+    "kl_calib": {
+      "n": 10,
+      "mean": 0.012408601133882868,
+      "ci95": [
+        0.004435029336113372,
+        0.022657111206397584
+      ]
+    },
+    "kl_rand": {
+      "n": 10,
+      "mean": 0.00834818084225617,
+      "ci95": [
+        0.0034942364369567255,
+        0.015264646916309623
+      ]
+    },
+    "calib_minus_rand": {
+      "n": 10,
+      "mean": 0.004060420291626699,
+      "ci95": [
+        -0.0007021171955544321,
+        0.008907711075719017
+      ],
+      "p_signflip": 0.140625,
+      "p_method": "exact_enumeration"
+    },
+    "calib_over_rand": {
+      "n": 10,
+      "estimate": 1.4863838443788833,
+      "n_valid_resamples": 10000,
+      "ci95": [
+        0.8899913246574735,
+        2.2512162334660473
+      ]
+    },
+    "top1_agree_calib": 0.9860043942928314,
+    "top1_agree_rand": 0.9930241882801056,
+    "top1_unedited_eq_generated": 0.9929999887943268,
+    "definition": "mean over generated-token predictions of KL(p_unedited || p_edited), teacher-forced on the unedited greedy text; random edit replays the calib coefficients along rand_orth (identical norms)"
+  },
+  "diag_projection": {
+    "edit_layers": [
+      18
+    ],
+    "per_level": {
+      "Low": {
+        "n": 30,
+        "mean_proj_at_edit_layers": [
+          9.70693759918213
+        ]
+      },
+      "Middle": {
+        "n": 30,
+        "mean_proj_at_edit_layers": [
+          5.377370436986287
+        ]
+      },
+      "High": {
+        "n": 30,
+        "mean_proj_at_edit_layers": [
+          2.9935696601867674
+        ]
+      }
+    },
+    "setpoints_at_edit_layers": {
+      "grand": [
+        4.391168454786142
+      ],
+      "high": [
+        -1.1073468367258708
+      ],
+      "mid": [
+        3.0588268861174583
+      ]
+    },
+    "note": "held-out cue-span projection (unedited) vs the fit-family set-points"
+  },
+  "decisions": {
+    "heldout_gap_ci_includes_gold": false,
+    "heldout_gap_within_0.5_of_gold": false,
+    "heldout_abs_dHigh_le_0.5": false,
+    "calib_parse_ge_0.98_base": true,
+    "kl_calib_below_random": false,
+    "random_low_shift_smaller_than_calib": true,
+    "sex_gap_moves_toward_nhanes": false,
+    "sex_gap_distance_change_ci_excludes_0": false,
+    "relationship_gap_moves_toward_nhanes": false,
+    "relationship_gap_distance_change_ci_excludes_0": false,
+    "attenuation_heldout_minus_insample_fraction_removed": -0.005962208769033139
+  },
+  "in_sample_descriptive": {
+    "label": "IN-SAMPLE, descriptive (the 20 fitting profiles also chose this cell)",
+    "gap": 4.85,
+    "gap_ci95": [
+      3.7,
+      6.05
+    ],
+    "dHigh_mean": -0.4,
+    "level_means": {
+      "Low": 7.55,
+      "Middle": 6.35,
+      "High": 2.7
+    },
+    "middle_fraction": 0.7525773195876289,
+    "fraction_removed": 0.29710144927536225,
+    "parse_rate": 1.0,
+    "qualifies": true,
+    "selection": {
+      "rule": "smallest |gap - 2.02| among cells with |dHigh| <= 0.5, parse >= 0.98 x base, verbatim echo <= base; if none qualifies, the cell with the smallest |dHigh| among cells with gap < 3 (fallback, say so)",
+      "qualifying": [
+        "high:L18:2"
+      ],
+      "selected": "high:L18:2",
+      "fallback_used": false,
+      "frozen_cell": "high:L18:2",
+      "frozen_cell_layers": [
+        18
+      ],
+      "note_n3": "N3 freezes this tested cell (never an interpolated beta*; an interpolated beta would need its own confirm run)"
+    }
+  }
+}

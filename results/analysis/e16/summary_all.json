@@ -1,0 +1,485 @@
+{
+  "experiment": "e16",
+  "status": "EXPLORATORY",
+  "gold_gap": 2.02,
+  "models": {
+    "qwen": {
+      "table": {
+        "patient_voice": {
+          "parse_base": {
+            "base_low": 1.0,
+            "base_mid": 1.0,
+            "base_high": 1.0
+          },
+          "parse_gate_all_arms": true,
+          "arms_failing_gate": [],
+          "gap_LH": [
+            7.55,
+            6.6,
+            8.5
+          ],
+          "gap_LH_p": 1.9073486328125e-06,
+          "gap_over_gold": [
+            3.738,
+            3.267,
+            4.208
+          ],
+          "base_level_means": {
+            "Low": 16.85,
+            "Middle": 13.5,
+            "High": 9.3
+          },
+          "removed_dir": [
+            0.119,
+            -0.014,
+            0.239
+          ],
+          "removed_rand": [
+            -0.033,
+            -0.121,
+            0.047
+          ],
+          "removed_dir_minus_rand": [
+            0.152,
+            0.04,
+            0.266
+          ],
+          "add_L18_shift_over_gap": [
+            0.55,
+            0.459,
+            0.648
+          ],
+          "randadd_L18_shift_over_gap": [
+            -0.225,
+            -0.382,
+            -0.099
+          ],
+          "rep_gap_over_alpha_add_layer": [
+            0.67,
+            0.66,
+            0.679
+          ],
+          "calib_beta": 0.5,
+          "calib_gap": [
+            3.45,
+            2.4,
+            4.4
+          ],
+          "calib_gap_minus_gold": [
+            1.43,
+            0.38,
+            2.38
+          ],
+          "calib_level_means": {
+            "Low": 14.45,
+            "Middle": 13.35,
+            "High": 11.0
+          },
+          "calib_fraction_removed": [
+            0.543,
+            0.408,
+            0.681
+          ]
+        },
+        "intake_note": {
+          "parse_base": {
+            "base_low": 1.0,
+            "base_mid": 1.0,
+            "base_high": 1.0
+          },
+          "parse_gate_all_arms": true,
+          "arms_failing_gate": [],
+          "gap_LH": [
+            13.9,
+            12.9,
+            14.8
+          ],
+          "gap_LH_p": 1.9073486328125e-06,
+          "gap_over_gold": [
+            6.881,
+            6.386,
+            7.327
+          ],
+          "base_level_means": {
+            "Low": 15.25,
+            "Middle": 12.4,
+            "High": 1.35
+          },
+          "removed_dir": [
+            -0.04,
+            -0.113,
+            0.017
+          ],
+          "removed_rand": [
+            0.097,
+            0.049,
+            0.143
+          ],
+          "removed_dir_minus_rand": [
+            -0.137,
+            -0.201,
+            -0.078
+          ],
+          "add_L18_shift_over_gap": [
+            0.396,
+            0.273,
+            0.523
+          ],
+          "randadd_L18_shift_over_gap": [
+            -0.097,
+            -0.149,
+            -0.051
+          ],
+          "rep_gap_over_alpha_add_layer": [
+            0.649,
+            0.64,
+            0.659
+          ],
+          "calib_beta": 0.5,
+          "calib_gap": [
+            5.95,
+            4.1,
+            7.85
+          ],
+          "calib_gap_minus_gold": [
+            3.93,
+            2.08,
+            5.83
+          ],
+          "calib_level_means": {
+            "Low": 14.75,
+            "Middle": 14.1,
+            "High": 8.8
+          },
+          "calib_fraction_removed": [
+            0.572,
+            0.431,
+            0.708
+          ]
+        },
+        "json_items": {
+          "parse_base": {
+            "base_low": 1.0,
+            "base_mid": 1.0,
+            "base_high": 1.0
+          },
+          "parse_gate_all_arms": true,
+          "arms_failing_gate": [],
+          "gap_LH": [
+            6.7,
+            5.65,
+            7.85
+          ],
+          "gap_LH_p": 1.9073486328125e-06,
+          "gap_over_gold": [
+            3.317,
+            2.797,
+            3.886
+          ],
+          "base_level_means": {
+            "Low": 16.4,
+            "Middle": 11.2,
+            "High": 9.7
+          },
+          "removed_dir": [
+            0.53,
+            0.448,
+            0.621
+          ],
+          "removed_rand": [
+            0.164,
+            0.072,
+            0.265
+          ],
+          "removed_dir_minus_rand": [
+            0.366,
+            0.284,
+            0.46
+          ],
+          "add_L18_shift_over_gap": [
+            0.388,
+            0.264,
+            0.515
+          ],
+          "randadd_L18_shift_over_gap": [
+            -0.94,
+            -1.328,
+            -0.599
+          ],
+          "rep_gap_over_alpha_add_layer": [
+            0.67,
+            0.66,
+            0.679
+          ],
+          "calib_beta": 0.5,
+          "calib_gap": [
+            3.2,
+            2.35,
+            4.1
+          ],
+          "calib_gap_minus_gold": [
+            1.18,
+            0.33,
+            2.08
+          ],
+          "calib_level_means": {
+            "Low": 13.35,
+            "Middle": 11.05,
+            "High": 10.15
+          },
+          "calib_fraction_removed": [
+            0.522,
+            0.354,
+            0.664
+          ]
+        }
+      },
+      "beta": 0.5,
+      "add_layer": 18,
+      "clinical_v0_anchor_gap": [
+        6.9,
+        5.75,
+        8.1
+      ]
+    },
+    "llama": {
+      "table": {
+        "patient_voice": {
+          "parse_base": {
+            "base_low": 1.0,
+            "base_mid": 1.0,
+            "base_high": 1.0
+          },
+          "parse_gate_all_arms": true,
+          "arms_failing_gate": [],
+          "gap_LH": [
+            9.7,
+            8.85,
+            10.5
+          ],
+          "gap_LH_p": 1.9073486328125e-06,
+          "gap_over_gold": [
+            4.802,
+            4.381,
+            5.198
+          ],
+          "base_level_means": {
+            "Low": 12.55,
+            "Middle": 5.9,
+            "High": 2.85
+          },
+          "removed_dir": [
+            1.144,
+            1.097,
+            1.193
+          ],
+          "removed_rand": [
+            0.201,
+            0.108,
+            0.292
+          ],
+          "removed_dir_minus_rand": [
+            0.943,
+            0.838,
+            1.046
+          ],
+          "add_L12_shift_over_gap": [
+            1.067,
+            0.986,
+            1.174
+          ],
+          "randadd_L12_shift_over_gap": [
+            -0.041,
+            -0.09,
+            0.0
+          ],
+          "rep_gap_over_alpha_add_layer": [
+            0.651,
+            0.639,
+            0.662
+          ],
+          "calib_beta": 1.5,
+          "calib_gap": [
+            0.15,
+            -0.3,
+            0.8
+          ],
+          "calib_gap_minus_gold": [
+            -1.87,
+            -2.32,
+            -1.22
+          ],
+          "calib_level_means": {
+            "Low": 3.1,
+            "Middle": 3.2,
+            "High": 2.95
+          },
+          "calib_fraction_removed": [
+            0.985,
+            0.919,
+            1.032
+          ]
+        },
+        "intake_note": {
+          "parse_base": {
+            "base_low": 1.0,
+            "base_mid": 1.0,
+            "base_high": 1.0
+          },
+          "parse_gate_all_arms": true,
+          "arms_failing_gate": [],
+          "gap_LH": [
+            6.65,
+            5.95,
+            7.35
+          ],
+          "gap_LH_p": 1.9073486328125e-06,
+          "gap_over_gold": [
+            3.292,
+            2.946,
+            3.639
+          ],
+          "base_level_means": {
+            "Low": 13.5,
+            "Middle": 8.9,
+            "High": 6.85
+          },
+          "removed_dir": [
+            1.256,
+            1.109,
+            1.427
+          ],
+          "removed_rand": [
+            0.211,
+            0.052,
+            0.382
+          ],
+          "removed_dir_minus_rand": [
+            1.045,
+            0.841,
+            1.263
+          ],
+          "add_L12_shift_over_gap": [
+            1.023,
+            0.908,
+            1.161
+          ],
+          "randadd_L12_shift_over_gap": [
+            -0.278,
+            -0.429,
+            -0.135
+          ],
+          "rep_gap_over_alpha_add_layer": [
+            0.634,
+            0.624,
+            0.644
+          ],
+          "calib_beta": 1.5,
+          "calib_gap": [
+            1.85,
+            1.2,
+            2.55
+          ],
+          "calib_gap_minus_gold": [
+            -0.17,
+            -0.82,
+            0.53
+          ],
+          "calib_level_means": {
+            "Low": 7.55,
+            "Middle": 5.9,
+            "High": 5.7
+          },
+          "calib_fraction_removed": [
+            0.722,
+            0.596,
+            0.831
+          ]
+        },
+        "json_items": {
+          "parse_base": {
+            "base_low": 1.0,
+            "base_mid": 1.0,
+            "base_high": 1.0
+          },
+          "parse_gate_all_arms": true,
+          "arms_failing_gate": [],
+          "gap_LH": [
+            14.4,
+            13.85,
+            15.0
+          ],
+          "gap_LH_p": 1.9073486328125e-06,
+          "gap_over_gold": [
+            7.129,
+            6.856,
+            7.426
+          ],
+          "base_level_means": {
+            "Low": 16.1,
+            "Middle": 5.8,
+            "High": 1.7
+          },
+          "removed_dir": [
+            0.944,
+            0.793,
+            1.073
+          ],
+          "removed_rand": [
+            0.111,
+            0.062,
+            0.158
+          ],
+          "removed_dir_minus_rand": [
+            0.833,
+            0.679,
+            0.968
+          ],
+          "add_L12_shift_over_gap": [
+            0.878,
+            0.846,
+            0.921
+          ],
+          "randadd_L12_shift_over_gap": [
+            -0.066,
+            -0.097,
+            -0.036
+          ],
+          "rep_gap_over_alpha_add_layer": [
+            0.651,
+            0.639,
+            0.662
+          ],
+          "calib_beta": 1.5,
+          "calib_gap": [
+            3.6,
+            1.45,
+            6.05
+          ],
+          "calib_gap_minus_gold": [
+            1.58,
+            -0.57,
+            4.03
+          ],
+          "calib_level_means": {
+            "Low": 6.6,
+            "Middle": 5.75,
+            "High": 3.0
+          },
+          "calib_fraction_removed": [
+            0.75,
+            0.588,
+            0.897
+          ]
+        }
+      },
+      "beta": 1.5,
+      "add_layer": 12,
+      "clinical_v0_anchor_gap": [
+        8.65,
+        7.2,
+        10.2
+      ]
+    }
+  }
+}

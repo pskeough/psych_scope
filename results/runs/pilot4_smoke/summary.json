@@ -1,0 +1,12 @@
+{
+  "base_low": 11.0,
+  "base_high": 2.0,
+  "low_from_high_5L": 7.5,
+  "low_from_high_ALL": 2.0,
+  "high_from_low_5L": 3.0,
+  "PMF_low_from_high_5L": 0.3888888888888889,
+  "PMF_low_from_high_ALL": 1.0,
+  "reverse_shift": 1.0,
+  "parse_rate": 1.0,
+  "align_ok_rate": 1.0
+}

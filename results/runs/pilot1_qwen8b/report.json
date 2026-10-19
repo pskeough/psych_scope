@@ -1,0 +1,999 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "sae_repo": "Qwen/SAE-Res-Qwen3-8B-Base-W64K-L0_100",
+  "layers": [
+    6,
+    12,
+    18,
+    24,
+    30,
+    34
+  ],
+  "seed": 20260721,
+  "g1_determinism": true,
+  "g2_parse_rate": 1.0,
+  "behavioral": [
+    {
+      "race": "White",
+      "gender": "Cisgender Man",
+      "rel": "Partnered",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "White",
+      "gender": "Cisgender Man",
+      "rel": "Partnered",
+      "ses": "High",
+      "phq8_total": 2
+    },
+    {
+      "race": "White",
+      "gender": "Cisgender Man",
+      "rel": "Single",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "White",
+      "gender": "Cisgender Man",
+      "rel": "Single",
+      "ses": "High",
+      "phq8_total": 2
+    },
+    {
+      "race": "White",
+      "gender": "Cisgender Woman",
+      "rel": "Partnered",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "White",
+      "gender": "Cisgender Woman",
+      "rel": "Partnered",
+      "ses": "High",
+      "phq8_total": 3
+    },
+    {
+      "race": "White",
+      "gender": "Cisgender Woman",
+      "rel": "Single",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "White",
+      "gender": "Cisgender Woman",
+      "rel": "Single",
+      "ses": "High",
+      "phq8_total": 2
+    },
+    {
+      "race": "Black",
+      "gender": "Cisgender Man",
+      "rel": "Partnered",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "Black",
+      "gender": "Cisgender Man",
+      "rel": "Partnered",
+      "ses": "High",
+      "phq8_total": 1
+    },
+    {
+      "race": "Black",
+      "gender": "Cisgender Man",
+      "rel": "Single",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "Black",
+      "gender": "Cisgender Man",
+      "rel": "Single",
+      "ses": "High",
+      "phq8_total": 1
+    },
+    {
+      "race": "Black",
+      "gender": "Cisgender Woman",
+      "rel": "Partnered",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "Black",
+      "gender": "Cisgender Woman",
+      "rel": "Partnered",
+      "ses": "High",
+      "phq8_total": 1
+    },
+    {
+      "race": "Black",
+      "gender": "Cisgender Woman",
+      "rel": "Single",
+      "ses": "Low",
+      "phq8_total": 10
+    },
+    {
+      "race": "Black",
+      "gender": "Cisgender Woman",
+      "rel": "Single",
+      "ses": "High",
+      "phq8_total": 2
+    },
+    {
+      "race": "Hispanic",
+      "gender": "Cisgender Man",
+      "rel": "Partnered",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "Hispanic",
+      "gender": "Cisgender Man",
+      "rel": "Partnered",
+      "ses": "High",
+      "phq8_total": 3
+    },
+    {
+      "race": "Hispanic",
+      "gender": "Cisgender Man",
+      "rel": "Single",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "Hispanic",
+      "gender": "Cisgender Man",
+      "rel": "Single",
+      "ses": "High",
+      "phq8_total": 3
+    },
+    {
+      "race": "Hispanic",
+      "gender": "Cisgender Woman",
+      "rel": "Partnered",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "Hispanic",
+      "gender": "Cisgender Woman",
+      "rel": "Partnered",
+      "ses": "High",
+      "phq8_total": 3
+    },
+    {
+      "race": "Hispanic",
+      "gender": "Cisgender Woman",
+      "rel": "Single",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "Hispanic",
+      "gender": "Cisgender Woman",
+      "rel": "Single",
+      "ses": "High",
+      "phq8_total": 3
+    },
+    {
+      "race": "Asian",
+      "gender": "Cisgender Man",
+      "rel": "Partnered",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "Asian",
+      "gender": "Cisgender Man",
+      "rel": "Partnered",
+      "ses": "High",
+      "phq8_total": 2
+    },
+    {
+      "race": "Asian",
+      "gender": "Cisgender Man",
+      "rel": "Single",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "Asian",
+      "gender": "Cisgender Man",
+      "rel": "Single",
+      "ses": "High",
+      "phq8_total": 2
+    },
+    {
+      "race": "Asian",
+      "gender": "Cisgender Woman",
+      "rel": "Partnered",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "Asian",
+      "gender": "Cisgender Woman",
+      "rel": "Partnered",
+      "ses": "High",
+      "phq8_total": 2
+    },
+    {
+      "race": "Asian",
+      "gender": "Cisgender Woman",
+      "rel": "Single",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "Asian",
+      "gender": "Cisgender Woman",
+      "rel": "Single",
+      "ses": "High",
+      "phq8_total": 2
+    },
+    {
+      "race": "Multiracial",
+      "gender": "Cisgender Man",
+      "rel": "Partnered",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "Multiracial",
+      "gender": "Cisgender Man",
+      "rel": "Partnered",
+      "ses": "High",
+      "phq8_total": 1
+    },
+    {
+      "race": "Multiracial",
+      "gender": "Cisgender Man",
+      "rel": "Single",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "Multiracial",
+      "gender": "Cisgender Man",
+      "rel": "Single",
+      "ses": "High",
+      "phq8_total": 9
+    },
+    {
+      "race": "Multiracial",
+      "gender": "Cisgender Woman",
+      "rel": "Partnered",
+      "ses": "Low",
+      "phq8_total": 12
+    },
+    {
+      "race": "Multiracial",
+      "gender": "Cisgender Woman",
+      "rel": "Partnered",
+      "ses": "High",
+      "phq8_total": 3
+    },
+    {
+      "race": "Multiracial",
+      "gender": "Cisgender Woman",
+      "rel": "Single",
+      "ses": "Low",
+      "phq8_total": 11
+    },
+    {
+      "race": "Multiracial",
+      "gender": "Cisgender Woman",
+      "rel": "Single",
+      "ses": "High",
+      "phq8_total": 1
+    }
+  ],
+  "g3_recon": {
+    "L6": {
+      "mean_cos": 0.9690227881073952,
+      "pass": true
+    },
+    "L12": {
+      "mean_cos": 0.9366856679320336,
+      "pass": true
+    },
+    "L18": {
+      "mean_cos": 0.8998416379094124,
+      "pass": true
+    },
+    "L24": {
+      "mean_cos": 0.9021488264203071,
+      "pass": true
+    },
+    "L30": {
+      "mean_cos": 0.9222578182816505,
+      "pass": true
+    },
+    "L34": {
+      "mean_cos": 0.955839429795742,
+      "pass": true
+    }
+  },
+  "divergence_curve": {
+    "L6": 0.008167126774787902,
+    "L12": 0.01251787543296814,
+    "L18": 0.013264158368110656,
+    "L24": 0.027049851417541505,
+    "L30": 0.01927279829978943,
+    "L34": 0.007825464010238647
+  },
+  "ses_top_features": {
+    "L6": [
+      {
+        "feature": 31700,
+        "low_minus_high": -1.1282964944839478,
+        "beats_null95": true
+      },
+      {
+        "feature": 59502,
+        "low_minus_high": -1.0377440452575684,
+        "beats_null95": true
+      },
+      {
+        "feature": 28429,
+        "low_minus_high": 0.8985974192619324,
+        "beats_null95": true
+      },
+      {
+        "feature": 34997,
+        "low_minus_high": -0.7797704935073853,
+        "beats_null95": true
+      },
+      {
+        "feature": 10082,
+        "low_minus_high": 0.7448479533195496,
+        "beats_null95": true
+      },
+      {
+        "feature": 17553,
+        "low_minus_high": -0.6606241464614868,
+        "beats_null95": true
+      },
+      {
+        "feature": 24600,
+        "low_minus_high": -0.59801185131073,
+        "beats_null95": true
+      },
+      {
+        "feature": 51350,
+        "low_minus_high": 0.5823437571525574,
+        "beats_null95": true
+      },
+      {
+        "feature": 18382,
+        "low_minus_high": 0.5408016443252563,
+        "beats_null95": true
+      },
+      {
+        "feature": 61703,
+        "low_minus_high": 0.5240657925605774,
+        "beats_null95": true
+      },
+      {
+        "feature": 36600,
+        "low_minus_high": -0.49702778458595276,
+        "beats_null95": true
+      },
+      {
+        "feature": 20741,
+        "low_minus_high": -0.4569321274757385,
+        "beats_null95": true
+      },
+      {
+        "feature": 4593,
+        "low_minus_high": -0.39130330085754395,
+        "beats_null95": false
+      },
+      {
+        "feature": 38514,
+        "low_minus_high": -0.3561673164367676,
+        "beats_null95": false
+      },
+      {
+        "feature": 5900,
+        "low_minus_high": -0.3430362343788147,
+        "beats_null95": false
+      },
+      {
+        "feature": 10378,
+        "low_minus_high": -0.3316667377948761,
+        "beats_null95": false
+      },
+      {
+        "feature": 14712,
+        "low_minus_high": -0.31513065099716187,
+        "beats_null95": false
+      },
+      {
+        "feature": 60834,
+        "low_minus_high": -0.30829742550849915,
+        "beats_null95": false
+      },
+      {
+        "feature": 60139,
+        "low_minus_high": -0.3021544814109802,
+        "beats_null95": false
+      },
+      {
+        "feature": 41341,
+        "low_minus_high": 0.2951333820819855,
+        "beats_null95": false
+      }
+    ],
+    "L12": [
+      {
+        "feature": 13365,
+        "low_minus_high": -1.8542659282684326,
+        "beats_null95": true
+      },
+      {
+        "feature": 14330,
+        "low_minus_high": -1.444559931755066,
+        "beats_null95": true
+      },
+      {
+        "feature": 9697,
+        "low_minus_high": 1.2918462753295898,
+        "beats_null95": true
+      },
+      {
+        "feature": 9605,
+        "low_minus_high": 1.2022441625595093,
+        "beats_null95": true
+      },
+      {
+        "feature": 35191,
+        "low_minus_high": -1.1995958089828491,
+        "beats_null95": true
+      },
+      {
+        "feature": 23194,
+        "low_minus_high": -1.0050090551376343,
+        "beats_null95": true
+      },
+      {
+        "feature": 4530,
+        "low_minus_high": 0.7605833411216736,
+        "beats_null95": true
+      },
+      {
+        "feature": 19688,
+        "low_minus_high": 0.6515380144119263,
+        "beats_null95": true
+      },
+      {
+        "feature": 60376,
+        "low_minus_high": -0.6485068202018738,
+        "beats_null95": true
+      },
+      {
+        "feature": 14146,
+        "low_minus_high": -0.6077094078063965,
+        "beats_null95": false
+      },
+      {
+        "feature": 19351,
+        "low_minus_high": -0.47526320815086365,
+        "beats_null95": false
+      },
+      {
+        "feature": 41499,
+        "low_minus_high": 0.46591249108314514,
+        "beats_null95": false
+      },
+      {
+        "feature": 5238,
+        "low_minus_high": 0.443661093711853,
+        "beats_null95": false
+      },
+      {
+        "feature": 45019,
+        "low_minus_high": -0.4165809154510498,
+        "beats_null95": false
+      },
+      {
+        "feature": 48793,
+        "low_minus_high": -0.40656572580337524,
+        "beats_null95": false
+      },
+      {
+        "feature": 29302,
+        "low_minus_high": 0.40211600065231323,
+        "beats_null95": false
+      },
+      {
+        "feature": 43396,
+        "low_minus_high": 0.3982618451118469,
+        "beats_null95": false
+      },
+      {
+        "feature": 60758,
+        "low_minus_high": 0.3612924814224243,
+        "beats_null95": false
+      },
+      {
+        "feature": 33075,
+        "low_minus_high": -0.35796257853507996,
+        "beats_null95": false
+      },
+      {
+        "feature": 27060,
+        "low_minus_high": -0.35196784138679504,
+        "beats_null95": false
+      }
+    ],
+    "L18": [
+      {
+        "feature": 65094,
+        "low_minus_high": -2.4128129482269287,
+        "beats_null95": true
+      },
+      {
+        "feature": 49605,
+        "low_minus_high": 1.870248794555664,
+        "beats_null95": true
+      },
+      {
+        "feature": 49387,
+        "low_minus_high": 1.6528092622756958,
+        "beats_null95": true
+      },
+      {
+        "feature": 13533,
+        "low_minus_high": -1.3565070629119873,
+        "beats_null95": true
+      },
+      {
+        "feature": 52305,
+        "low_minus_high": -0.7771916389465332,
+        "beats_null95": false
+      },
+      {
+        "feature": 2281,
+        "low_minus_high": -0.7202825546264648,
+        "beats_null95": false
+      },
+      {
+        "feature": 48214,
+        "low_minus_high": 0.6660031676292419,
+        "beats_null95": false
+      },
+      {
+        "feature": 2996,
+        "low_minus_high": -0.6180590391159058,
+        "beats_null95": false
+      },
+      {
+        "feature": 13410,
+        "low_minus_high": 0.6082814931869507,
+        "beats_null95": false
+      },
+      {
+        "feature": 23545,
+        "low_minus_high": 0.6006674766540527,
+        "beats_null95": false
+      },
+      {
+        "feature": 8132,
+        "low_minus_high": -0.5455765724182129,
+        "beats_null95": false
+      },
+      {
+        "feature": 11161,
+        "low_minus_high": -0.5333971977233887,
+        "beats_null95": false
+      },
+      {
+        "feature": 25978,
+        "low_minus_high": -0.5277766585350037,
+        "beats_null95": false
+      },
+      {
+        "feature": 63891,
+        "low_minus_high": 0.5070427060127258,
+        "beats_null95": false
+      },
+      {
+        "feature": 53594,
+        "low_minus_high": -0.505263090133667,
+        "beats_null95": false
+      },
+      {
+        "feature": 45651,
+        "low_minus_high": -0.5017331838607788,
+        "beats_null95": false
+      },
+      {
+        "feature": 6814,
+        "low_minus_high": -0.4858247637748718,
+        "beats_null95": false
+      },
+      {
+        "feature": 40860,
+        "low_minus_high": 0.46593332290649414,
+        "beats_null95": false
+      },
+      {
+        "feature": 59933,
+        "low_minus_high": -0.463853657245636,
+        "beats_null95": false
+      },
+      {
+        "feature": 1621,
+        "low_minus_high": -0.45299258828163147,
+        "beats_null95": false
+      }
+    ],
+    "L24": [
+      {
+        "feature": 1134,
+        "low_minus_high": -8.262040138244629,
+        "beats_null95": true
+      },
+      {
+        "feature": 61329,
+        "low_minus_high": -5.506856441497803,
+        "beats_null95": true
+      },
+      {
+        "feature": 49973,
+        "low_minus_high": -4.824290752410889,
+        "beats_null95": true
+      },
+      {
+        "feature": 30289,
+        "low_minus_high": 4.216460227966309,
+        "beats_null95": true
+      },
+      {
+        "feature": 35087,
+        "low_minus_high": -4.060679912567139,
+        "beats_null95": true
+      },
+      {
+        "feature": 25405,
+        "low_minus_high": 3.390624523162842,
+        "beats_null95": true
+      },
+      {
+        "feature": 51058,
+        "low_minus_high": -3.308102607727051,
+        "beats_null95": true
+      },
+      {
+        "feature": 42019,
+        "low_minus_high": 3.045391798019409,
+        "beats_null95": true
+      },
+      {
+        "feature": 22855,
+        "low_minus_high": -2.821418523788452,
+        "beats_null95": false
+      },
+      {
+        "feature": 19193,
+        "low_minus_high": 2.7546963691711426,
+        "beats_null95": false
+      },
+      {
+        "feature": 53739,
+        "low_minus_high": 2.654968500137329,
+        "beats_null95": false
+      },
+      {
+        "feature": 56242,
+        "low_minus_high": 2.625155448913574,
+        "beats_null95": false
+      },
+      {
+        "feature": 6206,
+        "low_minus_high": 2.5866873264312744,
+        "beats_null95": false
+      },
+      {
+        "feature": 64937,
+        "low_minus_high": 2.4440364837646484,
+        "beats_null95": false
+      },
+      {
+        "feature": 63496,
+        "low_minus_high": -2.4367594718933105,
+        "beats_null95": false
+      },
+      {
+        "feature": 19210,
+        "low_minus_high": 2.32387113571167,
+        "beats_null95": false
+      },
+      {
+        "feature": 36747,
+        "low_minus_high": 2.304258346557617,
+        "beats_null95": false
+      },
+      {
+        "feature": 36315,
+        "low_minus_high": 2.180898666381836,
+        "beats_null95": false
+      },
+      {
+        "feature": 39914,
+        "low_minus_high": 2.1040515899658203,
+        "beats_null95": false
+      },
+      {
+        "feature": 50012,
+        "low_minus_high": 2.057403564453125,
+        "beats_null95": false
+      }
+    ],
+    "L30": [
+      {
+        "feature": 23364,
+        "low_minus_high": -13.040567398071289,
+        "beats_null95": true
+      },
+      {
+        "feature": 60432,
+        "low_minus_high": -11.511219024658203,
+        "beats_null95": true
+      },
+      {
+        "feature": 6588,
+        "low_minus_high": 11.41636848449707,
+        "beats_null95": true
+      },
+      {
+        "feature": 11970,
+        "low_minus_high": -10.380270004272461,
+        "beats_null95": true
+      },
+      {
+        "feature": 15430,
+        "low_minus_high": -9.872021675109863,
+        "beats_null95": true
+      },
+      {
+        "feature": 40102,
+        "low_minus_high": 8.813925743103027,
+        "beats_null95": true
+      },
+      {
+        "feature": 36202,
+        "low_minus_high": 8.351725578308105,
+        "beats_null95": true
+      },
+      {
+        "feature": 7333,
+        "low_minus_high": 8.329179763793945,
+        "beats_null95": true
+      },
+      {
+        "feature": 49605,
+        "low_minus_high": 7.156621932983398,
+        "beats_null95": true
+      },
+      {
+        "feature": 54140,
+        "low_minus_high": 6.569123268127441,
+        "beats_null95": true
+      },
+      {
+        "feature": 37057,
+        "low_minus_high": -6.323184490203857,
+        "beats_null95": true
+      },
+      {
+        "feature": 37822,
+        "low_minus_high": 5.975350856781006,
+        "beats_null95": true
+      },
+      {
+        "feature": 45136,
+        "low_minus_high": -5.9653754234313965,
+        "beats_null95": true
+      },
+      {
+        "feature": 34684,
+        "low_minus_high": -5.161886692047119,
+        "beats_null95": true
+      },
+      {
+        "feature": 42525,
+        "low_minus_high": -4.901822566986084,
+        "beats_null95": true
+      },
+      {
+        "feature": 5467,
+        "low_minus_high": -4.731510162353516,
+        "beats_null95": false
+      },
+      {
+        "feature": 37658,
+        "low_minus_high": -4.516825199127197,
+        "beats_null95": false
+      },
+      {
+        "feature": 61219,
+        "low_minus_high": 4.3094868659973145,
+        "beats_null95": false
+      },
+      {
+        "feature": 1083,
+        "low_minus_high": 4.3039703369140625,
+        "beats_null95": false
+      },
+      {
+        "feature": 59842,
+        "low_minus_high": 3.9280214309692383,
+        "beats_null95": false
+      }
+    ],
+    "L34": [
+      {
+        "feature": 18459,
+        "low_minus_high": 21.317371368408203,
+        "beats_null95": true
+      },
+      {
+        "feature": 49934,
+        "low_minus_high": -17.89202117919922,
+        "beats_null95": true
+      },
+      {
+        "feature": 2585,
+        "low_minus_high": -14.589934349060059,
+        "beats_null95": true
+      },
+      {
+        "feature": 26986,
+        "low_minus_high": 14.47766399383545,
+        "beats_null95": true
+      },
+      {
+        "feature": 16069,
+        "low_minus_high": -14.446563720703125,
+        "beats_null95": true
+      },
+      {
+        "feature": 12090,
+        "low_minus_high": 14.030513763427734,
+        "beats_null95": true
+      },
+      {
+        "feature": 63616,
+        "low_minus_high": 11.56673526763916,
+        "beats_null95": true
+      },
+      {
+        "feature": 23364,
+        "low_minus_high": -10.802825927734375,
+        "beats_null95": true
+      },
+      {
+        "feature": 55180,
+        "low_minus_high": 10.556600570678711,
+        "beats_null95": true
+      },
+      {
+        "feature": 43721,
+        "low_minus_high": -10.202811241149902,
+        "beats_null95": true
+      },
+      {
+        "feature": 40813,
+        "low_minus_high": 8.533677101135254,
+        "beats_null95": true
+      },
+      {
+        "feature": 16568,
+        "low_minus_high": 8.251728057861328,
+        "beats_null95": true
+      },
+      {
+        "feature": 10902,
+        "low_minus_high": -8.068192481994629,
+        "beats_null95": true
+      },
+      {
+        "feature": 42748,
+        "low_minus_high": -7.937881946563721,
+        "beats_null95": true
+      },
+      {
+        "feature": 37057,
+        "low_minus_high": -7.761033058166504,
+        "beats_null95": true
+      },
+      {
+        "feature": 56356,
+        "low_minus_high": -7.633955478668213,
+        "beats_null95": true
+      },
+      {
+        "feature": 19951,
+        "low_minus_high": 7.1972150802612305,
+        "beats_null95": false
+      },
+      {
+        "feature": 21968,
+        "low_minus_high": 7.194735527038574,
+        "beats_null95": false
+      },
+      {
+        "feature": 58487,
+        "low_minus_high": -7.192049980163574,
+        "beats_null95": false
+      },
+      {
+        "feature": 37373,
+        "low_minus_high": 6.844084739685059,
+        "beats_null95": false
+      }
+    ]
+  },
+  "g4_permutation": {
+    "L6": {
+      "null95_max_diff": 0.4003428518772125,
+      "n_top20_beating_null": 12
+    },
+    "L12": {
+      "null95_max_diff": 0.6370514631271362,
+      "n_top20_beating_null": 9
+    },
+    "L18": {
+      "null95_max_diff": 0.7906584143638611,
+      "n_top20_beating_null": 4
+    },
+    "L24": {
+      "null95_max_diff": 2.8259332180023193,
+      "n_top20_beating_null": 8
+    },
+    "L30": {
+      "null95_max_diff": 4.739479064941406,
+      "n_top20_beating_null": 15
+    },
+    "L34": {
+      "null95_max_diff": 7.432258605957031,
+      "n_top20_beating_null": 16
+    }
+  },
+  "rel_top_features": {
+    "L6": {
+      "max_abs_diff": 0.03986918926239014,
+      "n_top20_beating_null": 0
+    },
+    "L12": {
+      "max_abs_diff": 0.09189510345458984,
+      "n_top20_beating_null": 0
+    },
+    "L18": {
+      "max_abs_diff": 0.10546612739562988,
+      "n_top20_beating_null": 0
+    },
+    "L24": {
+      "max_abs_diff": 0.35619497299194336,
+      "n_top20_beating_null": 0
+    },
+    "L30": {
+      "max_abs_diff": 0.9256687164306641,
+      "n_top20_beating_null": 0
+    },
+    "L34": {
+      "max_abs_diff": 2.3205251693725586,
+      "n_top20_beating_null": 0
+    }
+  },
+  "phq8_mean_low": 11.0,
+  "phq8_mean_high": 2.4
+}

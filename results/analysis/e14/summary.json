@@ -1,0 +1,2186 @@
+{
+  "per_dose": {
+    "0": {
+      "n_generations": 60,
+      "n_profiles_complete": 20,
+      "parse_rate": 1.0,
+      "level_means": {
+        "Low": {
+          "n": 20,
+          "mean": 10.0,
+          "ci95": [
+            9.45,
+            10.6
+          ]
+        },
+        "Middle": {
+          "n": 20,
+          "mean": 7.3,
+          "ci95": [
+            6.7,
+            7.85
+          ]
+        },
+        "High": {
+          "n": 20,
+          "mean": 3.1,
+          "ci95": [
+            2.2,
+            4.0
+          ]
+        }
+      },
+      "level_residual_vs_gold": {
+        "Low": {
+          "gold": 4.25,
+          "n": 20,
+          "mean": 5.75,
+          "ci95": [
+            5.2,
+            6.35
+          ],
+          "p_signflip": 1.9073486328125e-06
+        },
+        "Middle": {
+          "gold": 3.12,
+          "n": 20,
+          "mean": 4.179999999999999,
+          "ci95": [
+            3.5799999999999996,
+            4.729999999999999
+          ],
+          "p_signflip": 1.9073486328125e-06
+        },
+        "High": {
+          "gold": 2.23,
+          "n": 20,
+          "mean": 0.8699999999999999,
+          "ci95": [
+            -0.030000000000000006,
+            1.7700000000000002
+          ],
+          "p_signflip": 0.08768844604492188
+        }
+      },
+      "sum_abs_level_residual": 10.8,
+      "gap_low_minus_high": {
+        "n": 20,
+        "mean": 6.9,
+        "ci95": [
+          5.75,
+          8.1
+        ],
+        "p_signflip": 1.9073486328125e-06
+      },
+      "gap_minus_gold": {
+        "gold_gap": 2.02,
+        "estimate": 4.880000000000001,
+        "ci95": [
+          3.73,
+          6.08
+        ],
+        "p_signflip_H0_gap_eq_gold": 1.9073486328125e-06
+      },
+      "gap_low_minus_middle": {
+        "n": 20,
+        "mean": 2.7,
+        "ci95": [
+          1.9,
+          3.55
+        ],
+        "p_signflip": 1.33514404296875e-05
+      },
+      "gap_middle_minus_high": {
+        "n": 20,
+        "mean": 4.2,
+        "ci95": [
+          3.2,
+          5.2
+        ],
+        "p_signflip": 7.62939453125e-06
+      },
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "none": 60
+      },
+      "echo_standard_array_rate": 0.0,
+      "distinct_arrays": 32,
+      "distinct_arrays_by_level": {
+        "Low": 12,
+        "Middle": 12,
+        "High": 11
+      },
+      "mean_new_tokens": 30.0,
+      "frac_hit_max_new_tokens": 0.0,
+      "sex_gap_women_minus_men": {
+        "n": 10,
+        "mean": 0.9333333333333332,
+        "ci95": [
+          0.16666666666666696,
+          1.7333333333333332
+        ],
+        "p_signflip": 0.06640625
+      },
+      "race_gap_minus_white": {
+        "Black": {
+          "n": 4,
+          "mean": -0.5833333333333333,
+          "ci95": [
+            -1.5,
+            0.6666666666666665
+          ],
+          "p_signflip": 0.5
+        },
+        "Hispanic": {
+          "n": 4,
+          "mean": -0.16666666666666652,
+          "ci95": [
+            -1.0,
+            0.666666666666667
+          ],
+          "p_signflip": 0.875
+        },
+        "Asian": {
+          "n": 4,
+          "mean": -0.6666666666666665,
+          "ci95": [
+            -1.1666666666666665,
+            -0.16666666666666652
+          ],
+          "p_signflip": 0.25
+        },
+        "Multiracial": {
+          "n": 4,
+          "mean": 0.0,
+          "ci95": [
+            -1.1666666666666665,
+            1.1666666666666665
+          ],
+          "p_signflip": 1.0
+        }
+      }
+    },
+    "0.5": {
+      "n_generations": 60,
+      "n_profiles_complete": 20,
+      "parse_rate": 1.0,
+      "level_means": {
+        "Low": {
+          "n": 20,
+          "mean": 7.7,
+          "ci95": [
+            7.1,
+            8.25
+          ]
+        },
+        "Middle": {
+          "n": 20,
+          "mean": 7.35,
+          "ci95": [
+            6.85,
+            7.8
+          ]
+        },
+        "High": {
+          "n": 20,
+          "mean": 5.95,
+          "ci95": [
+            5.65,
+            6.3
+          ]
+        }
+      },
+      "level_residual_vs_gold": {
+        "Low": {
+          "gold": 4.25,
+          "n": 20,
+          "mean": 3.45,
+          "ci95": [
+            2.85,
+            4.0
+          ],
+          "p_signflip": 1.9073486328125e-06
+        },
+        "Middle": {
+          "gold": 3.12,
+          "n": 20,
+          "mean": 4.229999999999999,
+          "ci95": [
+            3.7299999999999995,
+            4.679999999999999
+          ],
+          "p_signflip": 1.9073486328125e-06
+        },
+        "High": {
+          "gold": 2.23,
+          "n": 20,
+          "mean": 3.7199999999999998,
+          "ci95": [
+            3.4199999999999995,
+            4.0699999999999985
+          ],
+          "p_signflip": 1.9073486328125e-06
+        }
+      },
+      "sum_abs_level_residual": 11.4,
+      "gap_low_minus_high": {
+        "n": 20,
+        "mean": 1.75,
+        "ci95": [
+          1.15,
+          2.35
+        ],
+        "p_signflip": 6.103515625e-05
+      },
+      "gap_minus_gold": {
+        "gold_gap": 2.02,
+        "estimate": -0.27,
+        "ci95": [
+          -0.8700000000000001,
+          0.33000000000000007
+        ],
+        "p_signflip_H0_gap_eq_gold": 0.3547382354736328
+      },
+      "gap_low_minus_middle": {
+        "n": 20,
+        "mean": 0.35,
+        "ci95": [
+          -0.25,
+          0.95
+        ],
+        "p_signflip": 0.37109375
+      },
+      "gap_middle_minus_high": {
+        "n": 20,
+        "mean": 1.4,
+        "ci95": [
+          0.9,
+          1.9
+        ],
+        "p_signflip": 6.103515625e-05
+      },
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "none": 56,
+        "near2": 4
+      },
+      "echo_standard_array_rate": 0.0,
+      "distinct_arrays": 20,
+      "distinct_arrays_by_level": {
+        "Low": 10,
+        "Middle": 11,
+        "High": 8
+      },
+      "mean_new_tokens": 30.0,
+      "frac_hit_max_new_tokens": 0.0,
+      "edit_norm_median_by_layer": {
+        "0": 0.14147500000000002,
+        "1": 0.074075,
+        "2": 0.09917000000000001,
+        "3": 0.092165,
+        "4": 0.1288,
+        "5": 0.19444,
+        "6": 0.361395,
+        "7": 0.45318,
+        "8": 0.562085,
+        "9": 0.357875,
+        "10": 0.8632599999999999,
+        "11": 0.421915,
+        "12": 0.37995999999999996,
+        "13": 0.3488,
+        "14": 0.31279999999999997,
+        "15": 0.44289999999999996,
+        "16": 0.660045,
+        "17": 0.33416,
+        "18": 0.34164,
+        "19": 0.329545,
+        "20": 0.368005,
+        "21": 0.56299,
+        "22": 0.512705,
+        "23": 0.95295,
+        "24": 1.840045,
+        "25": 1.8860999999999999,
+        "26": 3.5439499999999997,
+        "27": 3.962675,
+        "28": 4.22192,
+        "29": 5.08726,
+        "30": 3.717715,
+        "31": 3.525615,
+        "32": 2.36544,
+        "33": 3.403975,
+        "34": 4.27219,
+        "35": 61.10087
+      },
+      "sex_gap_women_minus_men": {
+        "n": 10,
+        "mean": 1.1333333333333335,
+        "ci95": [
+          0.6666666666666667,
+          1.6
+        ],
+        "p_signflip": 0.00390625
+      },
+      "race_gap_minus_white": {
+        "Black": {
+          "n": 4,
+          "mean": -0.25,
+          "ci95": [
+            -0.5000000000000002,
+            0.0
+          ],
+          "p_signflip": 0.5
+        },
+        "Hispanic": {
+          "n": 4,
+          "mean": -0.24999999999999978,
+          "ci95": [
+            -1.0,
+            0.5000000000000004
+          ],
+          "p_signflip": 0.75
+        },
+        "Asian": {
+          "n": 4,
+          "mean": -0.6666666666666665,
+          "ci95": [
+            -1.083333333333333,
+            -0.33333333333333304
+          ],
+          "p_signflip": 0.125
+        },
+        "Multiracial": {
+          "n": 4,
+          "mean": 0.3333333333333335,
+          "ci95": [
+            -0.33333333333333304,
+            1.0
+          ],
+          "p_signflip": 0.5
+        }
+      },
+      "vs_beta0": {
+        "n_common_profiles": 20,
+        "gap_change": {
+          "n": 20,
+          "mean": -5.15,
+          "ci95": [
+            -6.6,
+            -3.75
+          ],
+          "p_signflip": 3.814697265625e-06
+        },
+        "fraction_of_beta0_gap_removed": {
+          "n": 20,
+          "estimate": 0.7463768115942029,
+          "n_valid_resamples": 10000,
+          "ci95": [
+            0.6290322580645161,
+            0.8441558441558441
+          ]
+        },
+        "level_shift": {
+          "Low": {
+            "n": 20,
+            "mean": -2.3,
+            "ci95": [
+              -3.1,
+              -1.55
+            ],
+            "p_signflip": 1.52587890625e-05
+          },
+          "Middle": {
+            "n": 20,
+            "mean": 0.05,
+            "ci95": [
+              -0.7,
+              0.8
+            ],
+            "p_signflip": 1.0
+          },
+          "High": {
+            "n": 20,
+            "mean": 2.85,
+            "ci95": [
+              1.95,
+              3.75
+            ],
+            "p_signflip": 7.62939453125e-06
+          }
+        },
+        "sex_gap_change": {
+          "n": 10,
+          "mean": 0.20000000000000026,
+          "ci95": [
+            -0.7666666666666659,
+            1.1333333333333333
+          ],
+          "p_signflip": 0.765625
+        },
+        "race_gap_change": {
+          "Black": {
+            "n": 4,
+            "mean": 0.33333333333333326,
+            "ci95": [
+              -0.7499999999999998,
+              1.1666666666666665
+            ],
+            "p_signflip": 0.75
+          },
+          "Hispanic": {
+            "n": 4,
+            "mean": -0.08333333333333326,
+            "ci95": [
+              -0.6666666666666661,
+              0.49999999999999956
+            ],
+            "p_signflip": 1.0
+          },
+          "Asian": {
+            "n": 4,
+            "mean": 0.0,
+            "ci95": [
+              -0.6666666666666667,
+              0.6666666666666667
+            ],
+            "p_signflip": 1.0
+          },
+          "Multiracial": {
+            "n": 4,
+            "mean": 0.3333333333333335,
+            "ci95": [
+              -0.833333333333333,
+              1.8333333333333328
+            ],
+            "p_signflip": 0.875
+          }
+        }
+      }
+    },
+    "1": {
+      "n_generations": 60,
+      "n_profiles_complete": 20,
+      "parse_rate": 1.0,
+      "level_means": {
+        "Low": {
+          "n": 20,
+          "mean": 8.3,
+          "ci95": [
+            7.9,
+            8.65
+          ]
+        },
+        "Middle": {
+          "n": 20,
+          "mean": 8.25,
+          "ci95": [
+            7.85,
+            8.6
+          ]
+        },
+        "High": {
+          "n": 20,
+          "mean": 6.8,
+          "ci95": [
+            6.3,
+            7.25
+          ]
+        }
+      },
+      "level_residual_vs_gold": {
+        "Low": {
+          "gold": 4.25,
+          "n": 20,
+          "mean": 4.05,
+          "ci95": [
+            3.65,
+            4.4
+          ],
+          "p_signflip": 1.9073486328125e-06
+        },
+        "Middle": {
+          "gold": 3.12,
+          "n": 20,
+          "mean": 5.129999999999999,
+          "ci95": [
+            4.729999999999999,
+            5.479999999999999
+          ],
+          "p_signflip": 1.9073486328125e-06
+        },
+        "High": {
+          "gold": 2.23,
+          "n": 20,
+          "mean": 4.5699999999999985,
+          "ci95": [
+            4.0699999999999985,
+            5.019999999999999
+          ],
+          "p_signflip": 1.9073486328125e-06
+        }
+      },
+      "sum_abs_level_residual": 13.75,
+      "gap_low_minus_high": {
+        "n": 20,
+        "mean": 1.5,
+        "ci95": [
+          0.85,
+          2.15
+        ],
+        "p_signflip": 0.00048828125
+      },
+      "gap_minus_gold": {
+        "gold_gap": 2.02,
+        "estimate": -0.52,
+        "ci95": [
+          -1.17,
+          0.1299999999999999
+        ],
+        "p_signflip_H0_gap_eq_gold": 0.11998176574707031
+      },
+      "gap_low_minus_middle": {
+        "n": 20,
+        "mean": 0.05,
+        "ci95": [
+          -0.45,
+          0.55
+        ],
+        "p_signflip": 1.0
+      },
+      "gap_middle_minus_high": {
+        "n": 20,
+        "mean": 1.45,
+        "ci95": [
+          0.8,
+          2.1
+        ],
+        "p_signflip": 0.000823974609375
+      },
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "none": 57,
+        "near2": 3
+      },
+      "echo_standard_array_rate": 0.0,
+      "distinct_arrays": 16,
+      "distinct_arrays_by_level": {
+        "Low": 9,
+        "Middle": 8,
+        "High": 11
+      },
+      "mean_new_tokens": 30.0,
+      "frac_hit_max_new_tokens": 0.0,
+      "edit_norm_median_by_layer": {
+        "0": 0.283095,
+        "1": 0.104485,
+        "2": 0.13992,
+        "3": 0.15012,
+        "4": 0.18882,
+        "5": 0.36488,
+        "6": 0.55924,
+        "7": 0.637435,
+        "8": 0.81256,
+        "9": 0.719085,
+        "10": 1.55712,
+        "11": 0.434875,
+        "12": 0.5962449999999999,
+        "13": 0.74007,
+        "14": 0.41598999999999997,
+        "15": 0.892645,
+        "16": 1.00434,
+        "17": 0.495285,
+        "18": 0.632465,
+        "19": 0.50386,
+        "20": 0.614465,
+        "21": 0.912525,
+        "22": 1.01552,
+        "23": 1.5478,
+        "24": 3.32871,
+        "25": 2.411215,
+        "26": 6.13544,
+        "27": 4.436025,
+        "28": 4.32988,
+        "29": 6.091945,
+        "30": 4.84649,
+        "31": 5.6609549999999995,
+        "32": 3.70899,
+        "33": 6.00777,
+        "34": 6.0137350000000005,
+        "35": 125.032195
+      },
+      "sex_gap_women_minus_men": {
+        "n": 10,
+        "mean": 0.10000000000000017,
+        "ci95": [
+          -0.33333333333333287,
+          0.5000000000000002
+        ],
+        "p_signflip": 0.765625
+      },
+      "race_gap_minus_white": {
+        "Black": {
+          "n": 4,
+          "mean": -0.8333333333333335,
+          "ci95": [
+            -1.3333333333333337,
+            -0.3333333333333335
+          ],
+          "p_signflip": 0.125
+        },
+        "Hispanic": {
+          "n": 4,
+          "mean": -0.5,
+          "ci95": [
+            -1.083333333333333,
+            -0.08333333333333348
+          ],
+          "p_signflip": 0.25
+        },
+        "Asian": {
+          "n": 4,
+          "mean": -0.9166666666666667,
+          "ci95": [
+            -1.3333333333333335,
+            -0.5
+          ],
+          "p_signflip": 0.125
+        },
+        "Multiracial": {
+          "n": 4,
+          "mean": -0.08333333333333348,
+          "ci95": [
+            -0.3333333333333335,
+            0.16666666666666652
+          ],
+          "p_signflip": 1.0
+        }
+      },
+      "vs_beta0": {
+        "n_common_profiles": 20,
+        "gap_change": {
+          "n": 20,
+          "mean": -5.4,
+          "ci95": [
+            -6.9,
+            -4.0
+          ],
+          "p_signflip": 1.9073486328125e-06
+        },
+        "fraction_of_beta0_gap_removed": {
+          "n": 20,
+          "estimate": 0.782608695652174,
+          "n_valid_resamples": 10000,
+          "ci95": [
+            0.6614173228346457,
+            0.8823529411764706
+          ]
+        },
+        "level_shift": {
+          "Low": {
+            "n": 20,
+            "mean": -1.7,
+            "ci95": [
+              -2.4,
+              -1.1
+            ],
+            "p_signflip": 3.0517578125e-05
+          },
+          "Middle": {
+            "n": 20,
+            "mean": 0.95,
+            "ci95": [
+              0.4,
+              1.55
+            ],
+            "p_signflip": 0.006195068359375
+          },
+          "High": {
+            "n": 20,
+            "mean": 3.7,
+            "ci95": [
+              2.7,
+              4.75
+            ],
+            "p_signflip": 3.814697265625e-06
+          }
+        },
+        "sex_gap_change": {
+          "n": 10,
+          "mean": -0.833333333333333,
+          "ci95": [
+            -1.8333333333333328,
+            0.06666666666666687
+          ],
+          "p_signflip": 0.16015625
+        },
+        "race_gap_change": {
+          "Black": {
+            "n": 4,
+            "mean": -0.2500000000000002,
+            "ci95": [
+              -1.666666666666667,
+              1.1666666666666665
+            ],
+            "p_signflip": 1.0
+          },
+          "Hispanic": {
+            "n": 4,
+            "mean": -0.3333333333333335,
+            "ci95": [
+              -1.3333333333333335,
+              0.6666666666666665
+            ],
+            "p_signflip": 0.75
+          },
+          "Asian": {
+            "n": 4,
+            "mean": -0.2500000000000002,
+            "ci95": [
+              -0.8333333333333335,
+              0.3333333333333335
+            ],
+            "p_signflip": 0.75
+          },
+          "Multiracial": {
+            "n": 4,
+            "mean": -0.08333333333333348,
+            "ci95": [
+              -1.1666666666666665,
+              0.9999999999999996
+            ],
+            "p_signflip": 1.0
+          }
+        }
+      }
+    },
+    "1.5": {
+      "n_generations": 60,
+      "n_profiles_complete": 20,
+      "parse_rate": 1.0,
+      "level_means": {
+        "Low": {
+          "n": 20,
+          "mean": 8.6,
+          "ci95": [
+            8.25,
+            8.9
+          ]
+        },
+        "Middle": {
+          "n": 20,
+          "mean": 8.45,
+          "ci95": [
+            8.1,
+            8.75
+          ]
+        },
+        "High": {
+          "n": 20,
+          "mean": 8.0,
+          "ci95": [
+            7.65,
+            8.35
+          ]
+        }
+      },
+      "level_residual_vs_gold": {
+        "Low": {
+          "gold": 4.25,
+          "n": 20,
+          "mean": 4.35,
+          "ci95": [
+            4.0,
+            4.65
+          ],
+          "p_signflip": 1.9073486328125e-06
+        },
+        "Middle": {
+          "gold": 3.12,
+          "n": 20,
+          "mean": 5.329999999999999,
+          "ci95": [
+            4.979999999999999,
+            5.629999999999999
+          ],
+          "p_signflip": 1.9073486328125e-06
+        },
+        "High": {
+          "gold": 2.23,
+          "n": 20,
+          "mean": 5.769999999999999,
+          "ci95": [
+            5.419999999999999,
+            6.119999999999999
+          ],
+          "p_signflip": 1.9073486328125e-06
+        }
+      },
+      "sum_abs_level_residual": 15.45,
+      "gap_low_minus_high": {
+        "n": 20,
+        "mean": 0.6,
+        "ci95": [
+          0.3,
+          0.9
+        ],
+        "p_signflip": 0.00537109375
+      },
+      "gap_minus_gold": {
+        "gold_gap": 2.02,
+        "estimate": -1.42,
+        "ci95": [
+          -1.72,
+          -1.12
+        ],
+        "p_signflip_H0_gap_eq_gold": 1.9073486328125e-06
+      },
+      "gap_low_minus_middle": {
+        "n": 20,
+        "mean": 0.15,
+        "ci95": [
+          -0.1,
+          0.45
+        ],
+        "p_signflip": 0.5078125
+      },
+      "gap_middle_minus_high": {
+        "n": 20,
+        "mean": 0.45,
+        "ci95": [
+          0.15,
+          0.8
+        ],
+        "p_signflip": 0.03125
+      },
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "none": 60
+      },
+      "echo_standard_array_rate": 0.0,
+      "distinct_arrays": 16,
+      "distinct_arrays_by_level": {
+        "Low": 8,
+        "Middle": 10,
+        "High": 10
+      },
+      "mean_new_tokens": 30.0,
+      "frac_hit_max_new_tokens": 0.0,
+      "edit_norm_median_by_layer": {
+        "0": 0.42485,
+        "1": 0.29217000000000004,
+        "2": 0.258235,
+        "3": 0.234715,
+        "4": 0.31550999999999996,
+        "5": 0.49571,
+        "6": 0.71221,
+        "7": 0.762205,
+        "8": 1.009865,
+        "9": 1.1813150000000001,
+        "10": 2.062245,
+        "11": 0.89252,
+        "12": 0.94397,
+        "13": 1.3426,
+        "14": 0.696095,
+        "15": 1.27559,
+        "16": 1.19673,
+        "17": 0.9949,
+        "18": 0.93895,
+        "19": 0.96332,
+        "20": 0.8794649999999999,
+        "21": 1.2984900000000001,
+        "22": 1.700045,
+        "23": 1.81723,
+        "24": 5.045585,
+        "25": 3.1980750000000002,
+        "26": 10.03337,
+        "27": 4.076385,
+        "28": 5.89662,
+        "29": 6.964499999999999,
+        "30": 6.4829550000000005,
+        "31": 6.96627,
+        "32": 5.441055,
+        "33": 8.336935,
+        "34": 8.239885000000001,
+        "35": 186.07054
+      },
+      "sex_gap_women_minus_men": {
+        "n": 10,
+        "mean": 0.3666666666666666,
+        "ci95": [
+          -0.2666666666666666,
+          1.0
+        ],
+        "p_signflip": 0.359375
+      },
+      "race_gap_minus_white": {
+        "Black": {
+          "n": 4,
+          "mean": 0.16666666666666652,
+          "ci95": [
+            0.0,
+            0.49999999999999956
+          ],
+          "p_signflip": 1.0
+        },
+        "Hispanic": {
+          "n": 4,
+          "mean": 0.16666666666666696,
+          "ci95": [
+            0.0,
+            0.3333333333333339
+          ],
+          "p_signflip": 0.5
+        },
+        "Asian": {
+          "n": 4,
+          "mean": -0.4166666666666665,
+          "ci95": [
+            -0.5833333333333328,
+            -0.33333333333333304
+          ],
+          "p_signflip": 0.125
+        },
+        "Multiracial": {
+          "n": 4,
+          "mean": 0.16666666666666674,
+          "ci95": [
+            -0.3333333333333339,
+            0.6666666666666674
+          ],
+          "p_signflip": 0.875
+        }
+      },
+      "vs_beta0": {
+        "n_common_profiles": 20,
+        "gap_change": {
+          "n": 20,
+          "mean": -6.3,
+          "ci95": [
+            -7.65,
+            -5.0
+          ],
+          "p_signflip": 1.9073486328125e-06
+        },
+        "fraction_of_beta0_gap_removed": {
+          "n": 20,
+          "estimate": 0.9130434782608695,
+          "n_valid_resamples": 10000,
+          "ci95": [
+            0.8524590163934427,
+            0.9632397776183643
+          ]
+        },
+        "level_shift": {
+          "Low": {
+            "n": 20,
+            "mean": -1.4,
+            "ci95": [
+              -2.05,
+              -0.8
+            ],
+            "p_signflip": 0.000244140625
+          },
+          "Middle": {
+            "n": 20,
+            "mean": 1.15,
+            "ci95": [
+              0.6,
+              1.75
+            ],
+            "p_signflip": 0.00067138671875
+          },
+          "High": {
+            "n": 20,
+            "mean": 4.9,
+            "ci95": [
+              3.95,
+              5.85
+            ],
+            "p_signflip": 1.9073486328125e-06
+          }
+        },
+        "sex_gap_change": {
+          "n": 10,
+          "mean": -0.5666666666666667,
+          "ci95": [
+            -1.3666666666666665,
+            0.13333333333333322
+          ],
+          "p_signflip": 0.234375
+        },
+        "race_gap_change": {
+          "Black": {
+            "n": 4,
+            "mean": 0.7499999999999998,
+            "ci95": [
+              -0.6666666666666665,
+              1.9166666666666663
+            ],
+            "p_signflip": 0.5
+          },
+          "Hispanic": {
+            "n": 4,
+            "mean": 0.3333333333333335,
+            "ci95": [
+              -0.5,
+              1.166666666666667
+            ],
+            "p_signflip": 0.75
+          },
+          "Asian": {
+            "n": 4,
+            "mean": 0.25,
+            "ci95": [
+              -0.33333333333333304,
+              0.833333333333333
+            ],
+            "p_signflip": 0.625
+          },
+          "Multiracial": {
+            "n": 4,
+            "mean": 0.16666666666666674,
+            "ci95": [
+              -0.4999999999999991,
+              0.9166666666666661
+            ],
+            "p_signflip": 0.875
+          }
+        }
+      }
+    },
+    "2": {
+      "n_generations": 60,
+      "n_profiles_complete": 20,
+      "parse_rate": 1.0,
+      "level_means": {
+        "Low": {
+          "n": 20,
+          "mean": 9.1,
+          "ci95": [
+            8.75,
+            9.45
+          ]
+        },
+        "Middle": {
+          "n": 20,
+          "mean": 9.25,
+          "ci95": [
+            8.95,
+            9.5
+          ]
+        },
+        "High": {
+          "n": 20,
+          "mean": 8.9,
+          "ci95": [
+            8.6,
+            9.2
+          ]
+        }
+      },
+      "level_residual_vs_gold": {
+        "Low": {
+          "gold": 4.25,
+          "n": 20,
+          "mean": 4.85,
+          "ci95": [
+            4.5,
+            5.2
+          ],
+          "p_signflip": 1.9073486328125e-06
+        },
+        "Middle": {
+          "gold": 3.12,
+          "n": 20,
+          "mean": 6.129999999999999,
+          "ci95": [
+            5.829999999999999,
+            6.379999999999999
+          ],
+          "p_signflip": 1.9073486328125e-06
+        },
+        "High": {
+          "gold": 2.23,
+          "n": 20,
+          "mean": 6.669999999999999,
+          "ci95": [
+            6.369999999999999,
+            6.970000000000001
+          ],
+          "p_signflip": 1.9073486328125e-06
+        }
+      },
+      "sum_abs_level_residual": 17.65,
+      "gap_low_minus_high": {
+        "n": 20,
+        "mean": 0.2,
+        "ci95": [
+          -0.2,
+          0.6
+        ],
+        "p_signflip": 0.48876953125
+      },
+      "gap_minus_gold": {
+        "gold_gap": 2.02,
+        "estimate": -1.82,
+        "ci95": [
+          -2.22,
+          -1.42
+        ],
+        "p_signflip_H0_gap_eq_gold": 1.9073486328125e-06
+      },
+      "gap_low_minus_middle": {
+        "n": 20,
+        "mean": -0.15,
+        "ci95": [
+          -0.45,
+          0.15
+        ],
+        "p_signflip": 0.5078125
+      },
+      "gap_middle_minus_high": {
+        "n": 20,
+        "mean": 0.35,
+        "ci95": [
+          0.05,
+          0.65
+        ],
+        "p_signflip": 0.0625
+      },
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "none": 60
+      },
+      "echo_standard_array_rate": 0.0,
+      "distinct_arrays": 17,
+      "distinct_arrays_by_level": {
+        "Low": 11,
+        "Middle": 9,
+        "High": 7
+      },
+      "mean_new_tokens": 30.0,
+      "frac_hit_max_new_tokens": 0.0,
+      "edit_norm_median_by_layer": {
+        "0": 0.56647,
+        "1": 0.6388499999999999,
+        "2": 0.663835,
+        "3": 0.69762,
+        "4": 0.74301,
+        "5": 1.1185100000000001,
+        "6": 0.945025,
+        "7": 1.184225,
+        "8": 1.286765,
+        "9": 1.6646649999999998,
+        "10": 2.498245,
+        "11": 1.853125,
+        "12": 1.738435,
+        "13": 2.507605,
+        "14": 1.871585,
+        "15": 1.557655,
+        "16": 2.30146,
+        "17": 2.461145,
+        "18": 2.6118,
+        "19": 3.30699,
+        "20": 2.5159599999999998,
+        "21": 3.58293,
+        "22": 4.79939,
+        "23": 3.6341650000000003,
+        "24": 10.95805,
+        "25": 6.6485,
+        "26": 22.743215,
+        "27": 13.97019,
+        "28": 22.63695,
+        "29": 11.728905000000001,
+        "30": 15.14476,
+        "31": 24.1198,
+        "32": 18.368355,
+        "33": 30.994660000000003,
+        "34": 25.73972,
+        "35": 221.66758
+      },
+      "sex_gap_women_minus_men": {
+        "n": 10,
+        "mean": 0.29999999999999993,
+        "ci95": [
+          -0.30000000000000027,
+          0.8333333333333333
+        ],
+        "p_signflip": 0.39453125
+      },
+      "race_gap_minus_white": {
+        "Black": {
+          "n": 4,
+          "mean": 0.25,
+          "ci95": [
+            -0.25000000000000044,
+            1.0000000000000004
+          ],
+          "p_signflip": 1.0
+        },
+        "Hispanic": {
+          "n": 4,
+          "mean": 0.08333333333333348,
+          "ci95": [
+            -0.16666666666666696,
+            0.3333333333333339
+          ],
+          "p_signflip": 1.0
+        },
+        "Asian": {
+          "n": 4,
+          "mean": -0.24999999999999978,
+          "ci95": [
+            -0.7499999999999993,
+            0.16666666666666696
+          ],
+          "p_signflip": 0.75
+        },
+        "Multiracial": {
+          "n": 4,
+          "mean": -0.08333333333333304,
+          "ci95": [
+            -0.49999999999999956,
+            0.25000000000000044
+          ],
+          "p_signflip": 1.0
+        }
+      },
+      "vs_beta0": {
+        "n_common_profiles": 20,
+        "gap_change": {
+          "n": 20,
+          "mean": -6.7,
+          "ci95": [
+            -7.85,
+            -5.55
+          ],
+          "p_signflip": 1.9073486328125e-06
+        },
+        "fraction_of_beta0_gap_removed": {
+          "n": 20,
+          "estimate": 0.9710144927536232,
+          "n_valid_resamples": 10000,
+          "ci95": [
+            0.9109589041095891,
+            1.0300808840282523
+          ]
+        },
+        "level_shift": {
+          "Low": {
+            "n": 20,
+            "mean": -0.9,
+            "ci95": [
+              -1.55,
+              -0.25
+            ],
+            "p_signflip": 0.022247314453125
+          },
+          "Middle": {
+            "n": 20,
+            "mean": 1.95,
+            "ci95": [
+              1.3,
+              2.65
+            ],
+            "p_signflip": 3.0517578125e-05
+          },
+          "High": {
+            "n": 20,
+            "mean": 5.8,
+            "ci95": [
+              4.9,
+              6.65
+            ],
+            "p_signflip": 1.9073486328125e-06
+          }
+        },
+        "sex_gap_change": {
+          "n": 10,
+          "mean": -0.6333333333333333,
+          "ci95": [
+            -1.5333333333333337,
+            0.23333333333333323
+          ],
+          "p_signflip": 0.24609375
+        },
+        "race_gap_change": {
+          "Black": {
+            "n": 4,
+            "mean": 0.8333333333333333,
+            "ci95": [
+              -0.75,
+              2.416666666666667
+            ],
+            "p_signflip": 0.5
+          },
+          "Hispanic": {
+            "n": 4,
+            "mean": 0.25,
+            "ci95": [
+              -0.5,
+              1.1666666666666667
+            ],
+            "p_signflip": 0.875
+          },
+          "Asian": {
+            "n": 4,
+            "mean": 0.41666666666666674,
+            "ci95": [
+              4.440892098500626e-16,
+              0.833333333333333
+            ],
+            "p_signflip": 0.5
+          },
+          "Multiracial": {
+            "n": 4,
+            "mean": -0.08333333333333304,
+            "ci95": [
+              -1.25,
+              1.3333333333333335
+            ],
+            "p_signflip": 1.0
+          }
+        }
+      }
+    },
+    "3": {
+      "n_generations": 60,
+      "n_profiles_complete": 0,
+      "parse_rate": 0.0,
+      "level_means": {
+        "Low": {
+          "n": 0
+        },
+        "Middle": {
+          "n": 0
+        },
+        "High": {
+          "n": 0
+        }
+      },
+      "level_residual_vs_gold": {
+        "Low": {
+          "gold": 4.25,
+          "n": 0
+        },
+        "Middle": {
+          "gold": 3.12,
+          "n": 0
+        },
+        "High": {
+          "gold": 2.23,
+          "n": 0
+        }
+      },
+      "gap_low_minus_high": {
+        "n": 0
+      },
+      "gap_low_minus_middle": {
+        "n": 0
+      },
+      "gap_middle_minus_high": {
+        "n": 0
+      },
+      "verbatim_echo_rate": 0.0,
+      "echo_classes": {
+        "unparsed": 60
+      },
+      "echo_standard_array_rate": 0.0,
+      "distinct_arrays": 0,
+      "distinct_arrays_by_level": {
+        "Low": 0,
+        "Middle": 0,
+        "High": 0
+      },
+      "mean_new_tokens": 200.0,
+      "frac_hit_max_new_tokens": 1.0,
+      "edit_norm_median_by_layer": {
+        "0": 1.566365,
+        "1": 3.238505,
+        "2": 6.203900000000001,
+        "3": 10.118685,
+        "4": 19.332525,
+        "5": 32.277730000000005,
+        "6": 51.656025,
+        "7": 78.873475,
+        "8": 127.08262500000001,
+        "9": 188.891955,
+        "10": 208.03677499999998,
+        "11": 248.332805,
+        "12": 380.56030499999997,
+        "13": 647.5509,
+        "14": 1132.5437,
+        "15": 2007.4997549999998,
+        "16": 3630.489745,
+        "17": 6593.856205,
+        "18": 12210.240235000001,
+        "19": 22709.563479999997,
+        "20": 42718.644535,
+        "21": 79551.582035,
+        "22": 147048.0,
+        "23": 269971.921875,
+        "24": 501845.578125,
+        "25": 935217.0625,
+        "26": 1740950.0625,
+        "27": 3218922.875,
+        "28": 6041681.0,
+        "29": 11440176.5,
+        "30": 21504318.0,
+        "31": 39519726.0,
+        "32": 73849496.0,
+        "33": 140056664.0,
+        "34": 264537056.0,
+        "35": 499718112.0
+      },
+      "sex_gap_women_minus_men": {
+        "n": 0
+      },
+      "race_gap_minus_white": {
+        "Black": {
+          "n": 0
+        },
+        "Hispanic": {
+          "n": 0
+        },
+        "Asian": {
+          "n": 0
+        },
+        "Multiracial": {
+          "n": 0
+        }
+      },
+      "vs_beta0": {
+        "n_common_profiles": 0,
+        "gap_change": {
+          "n": 0
+        },
+        "fraction_of_beta0_gap_removed": {
+          "n": 0
+        },
+        "level_shift": {
+          "Low": {
+            "n": 0
+          },
+          "Middle": {
+            "n": 0
+          },
+          "High": {
+            "n": 0
+          }
+        },
+        "sex_gap_change": {
+          "n": 0
+        },
+        "race_gap_change": {
+          "Black": {
+            "n": 0
+          },
+          "Hispanic": {
+            "n": 0
+          },
+          "Asian": {
+            "n": 0
+          },
+          "Multiracial": {
+            "n": 0
+          }
+        }
+      }
+    }
+  },
+  "neutral": {
+    "0": {
+      "n": 10,
+      "n_known_answer": 7,
+      "exact_match_accuracy": 0.7142857142857143,
+      "lenient_match_accuracy": 0.7142857142857143,
+      "mean_new_tokens": 25.1,
+      "frac_hit_max_new_tokens": 0.1,
+      "mean_repeated_trigram_rate": 0.012244897959183676,
+      "texts": {
+        "photosynthesis": "Photosynthesis is the process by which green plants and some other organisms use sunlight to convert carbon dioxide and water into glucose and oxygen. This process occurs primarily in the chloroplasts of plant cells and is essential for producing the oxygen and organic compounds that sustain life on Earth.",
+        "add": "43",
+        "capitals": "1. Paris (France)  \n2. Berlin (Germany)  \n3. Rome (Italy)",
+        "apples": "Tom starts with 12 apples.  \nHe gives away 5:  \n12 - 5 = 7  \n\nThen he buys 8 more:  \n7 + 8 = 15  \n\n**Answer: 15**",
+        "train": "180",
+        "france": "Paris",
+        "pencils": "To find out how many pencils you can buy with $7, we start by determining how many pencils you can buy with $1.\n\nSince **3 pencils cost $1**, then:\n\n$$\n\\text{Pencils per dollar} = 3\n$$\n\nNow, with $7:\n\n$$\n7 \\times 3 = 21\n$$\n\nSo, you can buy **",
+        "ocean": "The ocean is a vast, ever-changing expanse of water that reflects the sky and cradles the Earth, teeming with life and mystery.",
+        "multiply": "63",
+        "week": "7"
+      }
+    },
+    "0.5": {
+      "n": 10,
+      "n_known_answer": 7,
+      "exact_match_accuracy": 0.8571428571428571,
+      "lenient_match_accuracy": 0.8571428571428571,
+      "mean_new_tokens": 15.9,
+      "frac_hit_max_new_tokens": 0.0,
+      "mean_repeated_trigram_rate": 0.0,
+      "texts": {
+        "photosynthesis": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize glucose from carbon dioxide and water. This process occurs primarily in the chloroplasts of plant cells and produces oxygen as a byproduct.",
+        "add": "43",
+        "capitals": "1. Paris  \n2. Berlin  \n3. Rome",
+        "apples": "Tom starts with 12 apples.  \nHe gives away 5:  \n12 - 5 = 7  \n\nThen he buys 8 more:  \n7 + 8 = 15  \n\n**Answer: 15**",
+        "train": "180",
+        "france": "Paris",
+        "pencils": "21",
+        "ocean": "The ocean is a vast, ever-changing expanse of water that reflects the sky, whispers with the wind, and teems with life beneath its shimmering surface.",
+        "multiply": "63",
+        "week": "7"
+      },
+      "identical_to_beta0_rate": 0.6
+    },
+    "1": {
+      "n": 10,
+      "n_known_answer": 7,
+      "exact_match_accuracy": 0.7142857142857143,
+      "lenient_match_accuracy": 0.7142857142857143,
+      "mean_new_tokens": 22.7,
+      "frac_hit_max_new_tokens": 0.1,
+      "mean_repeated_trigram_rate": 0.006666666666666665,
+      "texts": {
+        "photosynthesis": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize food from carbon dioxide and water. This process converts light energy into chemical energy stored in glucose, while releasing oxygen as a byproduct.",
+        "add": "43",
+        "capitals": "1. Paris  \n2. Berlin  \n3. Rome",
+        "apples": "Tom starts with 12 apples.  \nHe gives away 5:  \n12 - 5 = 7  \n\nThen he buys 8 more:  \n7 + 8 = 15  \n\n**Answer: 15**",
+        "train": "180",
+        "france": "Paris",
+        "pencils": "To find out how many pencils you can buy with $7 when pencils cost $1 for 3, follow these steps:\n\n1. **Determine how many sets of 3 pencils you can buy with $7:**\n   $$\n   \\frac{7}{1} = 7 \\text{ sets}\n   $$\n\n2. **Each set contains 3 pencils:**\n   $",
+        "ocean": "The ocean is a vast, ever-changing expanse of water that reflects the sky while hiding the mysteries of the deep.",
+        "multiply": "63",
+        "week": "7"
+      },
+      "identical_to_beta0_rate": 0.6
+    },
+    "1.5": {
+      "n": 10,
+      "n_known_answer": 7,
+      "exact_match_accuracy": 0.7142857142857143,
+      "lenient_match_accuracy": 0.7142857142857143,
+      "mean_new_tokens": 22.8,
+      "frac_hit_max_new_tokens": 0.1,
+      "mean_repeated_trigram_rate": 0.006666666666666665,
+      "texts": {
+        "photosynthesis": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize glucose from carbon dioxide and water. This process also releases oxygen as a byproduct and is essential for the survival of most living organisms.",
+        "add": "43",
+        "capitals": "1. Paris  \n2. Berlin  \n3. Rome",
+        "apples": "Tom starts with 12 apples.  \nHe gives away 5:  \n12 - 5 = 7  \n\nThen he buys 8 more:  \n7 + 8 = 15  \n\n**Answer: 15**",
+        "train": "180",
+        "france": "Paris",
+        "pencils": "To find out how many pencils you can buy with $7 when pencils cost $1 for 3, follow these steps:\n\n1. **Determine how many sets of 3 pencils you can buy with $7:**\n   $$\n   \\frac{7}{1} = 7 \\text{ sets}\n   $$\n\n2. **Each set contains 3 pencils:**\n   $",
+        "ocean": "The ocean is a vast, ever-changing expanse of blue that reflects the sky while hiding the mysterious depths of the unknown.",
+        "multiply": "63",
+        "week": "7"
+      },
+      "identical_to_beta0_rate": 0.6
+    },
+    "2": {
+      "n": 10,
+      "n_known_answer": 7,
+      "exact_match_accuracy": 0.7142857142857143,
+      "lenient_match_accuracy": 0.7142857142857143,
+      "mean_new_tokens": 22.8,
+      "frac_hit_max_new_tokens": 0.1,
+      "mean_repeated_trigram_rate": 0.0,
+      "texts": {
+        "photosynthesis": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize food from carbon dioxide and water. During this process, plants convert light energy into chemical energy stored in glucose, releasing oxygen as a byproduct.",
+        "add": "43",
+        "capitals": "1. Paris  \n2. Berlin  \n3. Rome",
+        "apples": "Tom starts with 12 apples.  \nHe gives away 5:  \n12 - 5 = 7  \n\nThen he buys 8 more:  \n7 + 8 = **15**\n\n**Answer: 15**",
+        "train": "180",
+        "france": "Paris",
+        "pencils": "First, we know that:\n\n- **3 pencils cost $1**\n- So, **1 pencil costs $1/3**\n\nNow, with **$7**, the number of pencils you can buy is:\n\n$$\n7 \\div \\left(\\frac{1}{3}\\right) = 7 \\times 3 = 21\n$$\n\n**Answer: 21**",
+        "ocean": "The ocean is a vast, ever-changing expanse of blue that reflects the sky while hiding the mysterious depths below.",
+        "multiply": "63",
+        "week": "7"
+      },
+      "identical_to_beta0_rate": 0.5
+    },
+    "3": {
+      "n": 10,
+      "n_known_answer": 7,
+      "exact_match_accuracy": 0.0,
+      "lenient_match_accuracy": 0.0,
+      "mean_new_tokens": 80.0,
+      "frac_hit_max_new_tokens": 1.0,
+      "mean_repeated_trigram_rate": 0.0,
+      "texts": {
+        "photosynthesis": "\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0",
+        "add": "\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0",
+        "capitals": "\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0",
+        "apples": "\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0",
+        "train": "\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0",
+        "france": "/business\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0",
+        "pencils": "/business\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0",
+        "ocean": "/business\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0",
+        "multiply": "/business\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0",
+        "week": "/business\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0\u8d2b\u56f0"
+      },
+      "identical_to_beta0_rate": 0.0
+    }
+  },
+  "calibration": {
+    "target_gap": 2.02,
+    "note": "interpolated, needs a confirm run",
+    "doses": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "mean_gap": [
+      6.9,
+      1.75,
+      1.5,
+      0.6,
+      0.2
+    ],
+    "crossings": [
+      0.4737864077669903
+    ],
+    "beta_star": 0.4737864077669903,
+    "bootstrap": {
+      "n_profiles": 20,
+      "frac_resamples_with_crossing": 1.0,
+      "description": "first crossing per profile resample (same resamples at every dose); crude, ignores curvature between doses",
+      "ci95": [
+        0.4258064516129032,
+        0.7823529411764705
+      ]
+    }
+  },
+  "n_generations": {
+    "clinical": 360,
+    "neutral": 60
+  },
+  "mode": "greedy",
+  "anchor_beta0_vs_e1_base": {
+    "Low": {
+      "n": 20,
+      "identical": 20
+    },
+    "High": {
+      "n": 20,
+      "identical": 20
+    }
+  },
+  "center_identical_across_shards": true,
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "direction": {
+    "path": "C:\\Research\\PsychScope\\paper_forge_2026-09-29\\experiments\\e1\\directions.pt",
+    "sha256": "9f68ce243733ac8e30fa8820fd9215e9155401ec03857e2da3b05e2f41f2eef5",
+    "shape": [
+      36,
+      4096
+    ],
+    "alpha": [
+      0.9897,
+      1.1726,
+      1.3519,
+      1.964,
+      2.3325,
+      2.9702,
+      3.7618,
+      4.7851,
+      6.1517,
+      6.6141,
+      7.1768,
+      7.8746,
+      8.5837,
+      9.1651,
+      9.3024,
+      9.8992,
+      10.9792,
+      11.7958,
+      12.3294,
+      13.7064,
+      14.942,
+      16.3563,
+      18.6072,
+      21.9037,
+      25.178,
+      28.9008,
+      33.6768,
+      39.6409,
+      44.1186,
+      48.5066,
+      54.743,
+      62.3289,
+      69.118,
+      74.2276,
+      81.465,
+      90.3603
+    ],
+    "fit_meta": {
+      "n_fit_prompts": 120,
+      "n_fit_used": 120,
+      "fit_cue_misses": [],
+      "fit_profiles": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "fit_variants": [
+        "clinical_v1",
+        "narrative_v0",
+        "narrative_v1"
+      ],
+      "fit_seconds": 45.2,
+      "L18_fit_pairs_low_above_high": "60/60"
+    }
+  },
+  "center": {
+    "m": [
+      0.380057900715878,
+      -0.12579208438595138,
+      -0.5632850501272414,
+      -0.8038194269148841,
+      -1.0946042353494299,
+      -0.791484333243635,
+      0.860387350835016,
+      -0.1957896002309604,
+      3.333317602839735,
+      5.143424789773094,
+      4.817810169121043,
+      3.5646025879515544,
+      1.377855308064156,
+      0.4143092639744279,
+      0.8550116930156947,
+      5.597190182299204,
+      7.61437926126851,
+      5.619061935824963,
+      4.391168454786142,
+      3.658770088551359,
+      3.597655397560447,
+      -0.13369984568821044,
+      2.2021010364923215,
+      8.05448574092653,
+      12.489367319809064,
+      17.585291944682186,
+      29.007972011301252,
+      34.11502443154653,
+      38.22653611765968,
+      44.21719133589003,
+      37.43838741696543,
+      15.12867316438092,
+      7.45634176855286,
+      -6.977180453638236,
+      -26.671481357633862,
+      223.08943600124783
+    ],
+    "mode": "fit_cue_grand_mean",
+    "source": "capture pass: E1 fit families (clinical v1, narrative v0, narrative v1) x Low/Middle/High, cue-span mean projection on d_L, equal weight per level",
+    "per_level_fit_cue_proj": {
+      "Low": [
+        0.9810337781906128,
+        0.5514516055583953,
+        0.21466704805692036,
+        0.3385292559241255,
+        0.28184085451066493,
+        0.9375697369376819,
+        3.069454824924469,
+        2.4449425478776297,
+        6.774833631515503,
+        8.852066620190937,
+        8.872445670763652,
+        7.899848810831705,
+        6.070917304356893,
+        5.477568705876668,
+        5.939997657140096,
+        11.081794357299804,
+        13.822610886891683,
+        12.273086436589558,
+        11.222025314966837,
+        11.184017499287924,
+        11.722363932927449,
+        8.706617585817973,
+        12.158877309163412,
+        19.662738037109374,
+        25.99216283162435,
+        33.31946144104004,
+        47.420722834269206,
+        55.96968428293864,
+        63.09560667673747,
+        71.82170174916585,
+        68.331254196167,
+        50.07262363433838,
+        46.1088610013326,
+        34.34693245887756,
+        19.220258299649384,
+        273.4733055114746
+      ],
+      "Middle": [
+        0.16784908045083285,
+        -0.3076905829211076,
+        -0.7673367212216059,
+        -1.1244816819826762,
+        -1.5149794101715088,
+        -1.279385049144427,
+        0.20403034199310544,
+        -0.6921605253747354,
+        2.6019469181696575,
+        4.3402836441993715,
+        3.8853402217229207,
+        2.7687505980332694,
+        0.5753877650946378,
+        -0.5471471237639586,
+        -0.012571642920374871,
+        4.527203432718912,
+        6.177080651124318,
+        4.106812872489294,
+        3.0588268861174583,
+        2.314713183386872,
+        2.2902114309680957,
+        -1.4580690644681453,
+        0.8957236724595229,
+        6.741682255268097,
+        10.661747694015503,
+        15.017717250188191,
+        25.85932887395223,
+        30.04656721750895,
+        32.60704517364502,
+        37.514758014678954,
+        30.395654853185018,
+        7.5697112540404,
+        -0.7306541480123997,
+        -15.39783685753743,
+        -36.990027435620625,
+        212.68199361165364
+      ],
+      "High": [
+        -0.008709156493811558,
+        -0.6211372757951419,
+        -1.1371854772170384,
+        -1.6255058546861012,
+        -2.050674150387446,
+        -2.0326376875241596,
+        -0.6923231144125263,
+        -2.3401508231957755,
+        0.6231722588340441,
+        2.2379241049289704,
+        1.6956446148765585,
+        0.0252083549896876,
+        -2.5127391452590624,
+        -3.6874937901894254,
+        -3.362390935172637,
+        1.1825727568788957,
+        2.843446245789528,
+        0.47728649839603654,
+        -1.1073468367258708,
+        -2.5224204170207183,
+        -3.219609171214203,
+        -7.649648058414459,
+        -6.448297872145971,
+        -2.24096306959788,
+        0.8141914337873459,
+        4.4186971428183215,
+        13.743864325682322,
+        16.328821794191995,
+        18.976956502596536,
+        23.315114243825278,
+        13.588253201544285,
+        -12.256315395236015,
+        -23.009181547661623,
+        -39.88063696225484,
+        -62.24467493693034,
+        183.11300888061524
+      ]
+    },
+    "fit_counts": {
+      "Low": 60,
+      "Middle": 60,
+      "High": 60
+    },
+    "fit_misses": [],
+    "e1_crosscheck_low_high_center_max_abs_diff": 2.1167506645269896e-06,
+    "e1_crosscheck_low_high_center_max_rel_diff": 4.1981340601555514e-07,
+    "test_prompt_diag_columns": [
+      "cue_span_mean_proj",
+      "all_position_mean_proj",
+      "last_token_proj"
+    ],
+    "direction_sha256": "9f68ce243733ac8e30fa8820fd9215e9155401ec03857e2da3b05e2f41f2eef5",
+    "profiles": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "capture_seconds": 123.8,
+    "test_prompt_cue_proj_mean_by_level": {
+      "Low": [
+        0.8577138751745224,
+        0.41607729345560074,
+        0.033235601455089636,
+        0.14155394360423088,
+        0.13834771616384386,
+        0.7913845360279084,
+        2.8721593737602236,
+        2.3864713311195374,
+        6.651660490036011,
+        7.892865681648255,
+        8.117658352851867,
+        7.215504384040832,
+        5.653457260131836,
+        5.160300159454346,
+        5.6071874618530275,
+        10.128395414352417,
+        12.504810667037964,
+        11.299478101730347,
+        10.47786455154419,
+        10.582139205932616,
+        10.975896692276,
+        8.443427681922913,
+        11.88356556892395,
+        19.97081995010376,
+        26.156346130371094,
+        33.71289377212524,
+        47.84963531494141,
+        57.23941783905029,
+        64.4347448348999,
+        72.37422752380371,
+        70.65616645812989,
+        52.996775436401364,
+        50.03026065826416,
+        37.70456790924072,
+        25.588054752349855,
+        300.82587280273435
+      ],
+      "Middle": [
+        0.20563025921583175,
+        -0.23688412383198737,
+        -0.6310858517885208,
+        -0.8855965524911881,
+        -1.0248635053634643,
+        -0.6740143597126007,
+        0.7774536341428757,
+        0.03017515055835247,
+        3.149922251701355,
+        4.438856863975525,
+        4.58310763835907,
+        3.5769440174102782,
+        1.7705473244190215,
+        0.8025757379829883,
+        1.3623656153678894,
+        5.757954835891724,
+        7.351005029678345,
+        5.872833108901977,
+        5.17011935710907,
+        4.830771565437317,
+        5.029707837104797,
+        1.8384057760238648,
+        3.9798704624176025,
+        10.108329677581787,
+        13.895236825942993,
+        18.46792345046997,
+        29.980204010009764,
+        34.35583505630493,
+        36.65483283996582,
+        41.25088119506836,
+        36.547554683685306,
+        14.384113216400147,
+        6.709333837032318,
+        -7.474074146151542,
+        -24.933480072021485,
+        257.87410430908204
+      ],
+      "High": [
+        0.16357765793800355,
+        -0.28500425815582275,
+        -0.6773451119661331,
+        -0.9698850840330124,
+        -1.1235068291425705,
+        -0.8959522515535354,
+        0.5421455085277558,
+        -0.5863838568329811,
+        2.3552680134773256,
+        3.3549004912376406,
+        3.5031789779663085,
+        1.8685357987880706,
+        -0.23345565996132792,
+        -1.141902344301343,
+        -0.7919407449662685,
+        3.6162026643753054,
+        4.966460728645325,
+        3.2988027930259705,
+        2.2589829921722413,
+        1.3780250906944276,
+        1.266393208503723,
+        -3.1235884547233583,
+        -1.7793235069140791,
+        3.6261117100715636,
+        6.806551074981689,
+        11.093152236938476,
+        19.333714866638182,
+        21.765707397460936,
+        23.52773952484131,
+        28.66844425201416,
+        22.349155521392824,
+        -0.23941732048988343,
+        -7.1546110436320305,
+        -22.20448307991028,
+        -39.886028957366946,
+        240.22842864990236
+      ]
+    },
+    "test_prompt_allpos_proj_mean": [
+      0.19456603229045868,
+      -0.3283447951078415,
+      -0.8130975127220154,
+      -0.985559156537056,
+      -1.375419956445694,
+      -0.9233863254388174,
+      2.682967170079549,
+      1.9827572464942933,
+      6.458982610702515,
+      8.195128130912781,
+      6.1113121032714846,
+      4.666365694999695,
+      2.0678697009881337,
+      1.3494428515434265,
+      1.4970239063103994,
+      8.004698093732198,
+      9.08606292406718,
+      7.010835512479146,
+      4.790605926513672,
+      3.343536464373271,
+      3.7885748505592347,
+      -0.08744842268836996,
+      2.2677819669246673,
+      9.371936909357707,
+      12.486579163869221,
+      16.958087507883707,
+      24.508078638712565,
+      28.484190781911213,
+      30.723748779296876,
+      32.84859822591146,
+      28.56450777053833,
+      11.03000095685323,
+      6.098295535643896,
+      -2.698895326256752,
+      -14.840136988957722,
+      135.50001678466796
+    ]
+  },
+  "edit_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "decoding": "greedy, max_new_tokens 200, 8-bit bitsandbytes, enable_thinking False, batch 1",
+  "gold": {
+    "Low": 4.25,
+    "Middle": 3.12,
+    "High": 2.23,
+    "gap": 2.02
+  },
+  "status": "EXPLORATORY",
+  "experiment": "E14 calibration dose sweep",
+  "snapshot_commit_hash": [
+    "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "shards": {
+    "shard_0": {
+      "shard": "0/2",
+      "doses": [
+        0.0,
+        1.0,
+        2.0
+      ],
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "cuda_visible_devices": "0",
+      "wall_seconds": 3162.2,
+      "load_seconds": 38.8,
+      "rss_after_load": "RSS 1.07 GB, private 11.07 GB; host available 16.5 GB",
+      "finished": "2026-10-01 11:07:10",
+      "n_generations": 210
+    },
+    "shard_1": {
+      "shard": "1/2",
+      "doses": [
+        0.5,
+        1.5,
+        3.0
+      ],
+      "gpu": "NVIDIA GeForce RTX 5060 Ti",
+      "cuda_visible_devices": "1",
+      "wall_seconds": 279.4,
+      "load_seconds": 36.3,
+      "rss_after_load": "RSS 1.07 GB, private 11.06 GB; host available 17.4 GB",
+      "finished": "2026-10-01 15:45:48",
+      "n_generations": 210
+    }
+  },
+  "wall_seconds_max_shard": 3162.2,
+  "wall_seconds_sum_shards": 3441.6,
+  "stats": "paired profile bootstrap, 10000 resamples, percentile 95% CI, numpy default_rng(20260813) (e1.boot_idx); exact two-sided sign-flip over all 2^n patterns (e1.exact_signflip_p)"
+}

@@ -1,0 +1,9 @@
+race,gender,rel,cond,phq8_total
+White,Cisgender Man,Partnered,base_low,11
+White,Cisgender Man,Partnered,base_high,2
+White,Cisgender Man,Partnered,raw_patch_L18,3
+White,Cisgender Man,Partnered,recon_patch_L18,10
+White,Cisgender Man,Single,base_low,11
+White,Cisgender Man,Single,base_high,2
+White,Cisgender Man,Single,raw_patch_L18,3
+White,Cisgender Man,Single,recon_patch_L18,10

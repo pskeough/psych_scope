@@ -1,0 +1,10 @@
+{
+  "base_great": 0.0,
+  "base_strug": 19.5,
+  "raw_patch": 14.5,
+  "recon_patch": 17.0,
+  "valence_gap": 19.5,
+  "raw_transfer_frac": 0.7435897435897436,
+  "recon_transfer_frac": 0.8717948717948718,
+  "parse_rate": 1.0
+}
